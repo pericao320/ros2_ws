@@ -1,0 +1,20 @@
+[0.676s] Invoking command in '/home/pericao/ros2_ws/src/my_robot': PYTHONPATH=/home/pericao/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/pericao/ros2_ws/build/my_robot/build install --record /home/pericao/ros2_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data
+[0.964s] running egg_info
+[0.970s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[0.970s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[0.970s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[0.971s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[0.971s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[1.012s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.013s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.017s] running build
+[1.017s] running build_py
+[1.019s] running install
+[1.019s] running install_lib
+[1.020s] running install_data
+[1.021s] running install_egg_info
+[1.025s] removing '/home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages/my_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[1.026s] Copying ../../build/my_robot/my_robot.egg-info to /home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages/my_robot-0.0.0-py3.8.egg-info
+[1.027s] running install_scripts
+[1.049s] writing list of installed files to '/home/pericao/ros2_ws/build/my_robot/install.log'
+[1.078s] Invoked command in '/home/pericao/ros2_ws/src/my_robot' returned '0': PYTHONPATH=/home/pericao/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/pericao/ros2_ws/build/my_robot/build install --record /home/pericao/ros2_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data

@@ -1,0 +1,28 @@
+[0.670s] Invoking command in '/home/pericao/ros2_ws/build/my_robot': PYTHONPATH=/home/pericao/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pericao/ros2_ws/build/my_robot/build
+[0.871s] running develop
+[0.969s] Removing /home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages/my-robot.egg-link (link to .)
+[0.985s] Invoked command in '/home/pericao/ros2_ws/build/my_robot' returned '0': PYTHONPATH=/home/pericao/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pericao/ros2_ws/build/my_robot/build
+[0.986s] Invoking command in '/home/pericao/ros2_ws/src/my_robot': PYTHONPATH=/home/pericao/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/pericao/ros2_ws/build/my_robot/build install --record /home/pericao/ros2_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data --force
+[1.128s] running egg_info
+[1.128s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[1.129s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[1.129s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[1.129s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[1.129s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[1.157s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.157s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.158s] running build
+[1.158s] running build_py
+[1.158s] running install
+[1.159s] running install_lib
+[1.160s] creating /home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages/my_robot
+[1.160s] copying /home/pericao/ros2_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages/my_robot
+[1.160s] byte-compiling /home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages/my_robot/__init__.py to __init__.cpython-38.pyc
+[1.161s] running install_data
+[1.161s] copying resource/my_robot -> /home/pericao/ros2_ws/install/my_robot/share/ament_index/resource_index/packages
+[1.161s] copying package.xml -> /home/pericao/ros2_ws/install/my_robot/share/my_robot
+[1.162s] running install_egg_info
+[1.163s] Copying ../../build/my_robot/my_robot.egg-info to /home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages/my_robot-0.0.0-py3.8.egg-info
+[1.163s] running install_scripts
+[1.177s] writing list of installed files to '/home/pericao/ros2_ws/build/my_robot/install.log'
+[1.194s] Invoked command in '/home/pericao/ros2_ws/src/my_robot' returned '0': PYTHONPATH=/home/pericao/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/pericao/ros2_ws/build/my_robot/build install --record /home/pericao/ros2_ws/build/my_robot/install.log --install-scripts $base/lib/my_robot --single-version-externally-managed install_data --force

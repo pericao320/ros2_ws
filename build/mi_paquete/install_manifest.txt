@@ -1,0 +1,15 @@
+/home/pericao/ros2_ws/install/mi_paquete/share/ament_index/resource_index/package_run_dependencies/mi_paquete
+/home/pericao/ros2_ws/install/mi_paquete/share/ament_index/resource_index/parent_prefix_path/mi_paquete
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/environment/ament_prefix_path.sh
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/environment/ament_prefix_path.dsv
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/environment/path.sh
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/environment/path.dsv
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/local_setup.bash
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/local_setup.sh
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/local_setup.zsh
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/local_setup.dsv
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/package.dsv
+/home/pericao/ros2_ws/install/mi_paquete/share/ament_index/resource_index/packages/mi_paquete
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/cmake/mi_paqueteConfig.cmake
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/cmake/mi_paqueteConfig-version.cmake
+/home/pericao/ros2_ws/install/mi_paquete/share/mi_paquete/package.xml

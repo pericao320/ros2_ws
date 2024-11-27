@@ -1,0 +1,6 @@
+Invoking command in '/home/pericao/ros2_ws/build/mi_paquete': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake /home/pericao/ros2_ws/src/mi_paquete -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/install/mi_paquete
+Invoked command in '/home/pericao/ros2_ws/build/mi_paquete' returned '0': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake /home/pericao/ros2_ws/src/mi_paquete -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/install/mi_paquete
+Invoking command in '/home/pericao/ros2_ws/build/mi_paquete': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --build /home/pericao/ros2_ws/build/mi_paquete -- -j2 -l2
+Invoked command in '/home/pericao/ros2_ws/build/mi_paquete' returned '0': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --build /home/pericao/ros2_ws/build/mi_paquete -- -j2 -l2
+Invoking command in '/home/pericao/ros2_ws/build/mi_paquete': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --install /home/pericao/ros2_ws/build/mi_paquete
+Invoked command in '/home/pericao/ros2_ws/build/mi_paquete' returned '0': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --install /home/pericao/ros2_ws/build/mi_paquete

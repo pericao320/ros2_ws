@@ -1,0 +1,9 @@
+/home/pericao/ros2_ws/build/mi_paquete/CMakeFiles/install/strip.dir
+/home/pericao/ros2_ws/build/mi_paquete/CMakeFiles/install/local.dir
+/home/pericao/ros2_ws/build/mi_paquete/CMakeFiles/install.dir
+/home/pericao/ros2_ws/build/mi_paquete/CMakeFiles/list_install_components.dir
+/home/pericao/ros2_ws/build/mi_paquete/CMakeFiles/rebuild_cache.dir
+/home/pericao/ros2_ws/build/mi_paquete/CMakeFiles/edit_cache.dir
+/home/pericao/ros2_ws/build/mi_paquete/CMakeFiles/test.dir
+/home/pericao/ros2_ws/build/mi_paquete/CMakeFiles/mi_paquete_uninstall.dir
+/home/pericao/ros2_ws/build/mi_paquete/CMakeFiles/uninstall.dir

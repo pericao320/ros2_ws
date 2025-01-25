@@ -30,7 +30,7 @@ Este proyecto implementa un sistema de visión artificial utilizando ROS, una c�
     ```
 2. **Clonar este repositorio**:
     ```bash
-    mkdir -p ~/ros2_ws/src
+    mkdir ~/ros2_ws
     cd ~/ros2_ws/src
     git clone https://github.com/pericao320/ros2_ws.git
     ```
@@ -52,6 +52,38 @@ Este proyecto implementa un sistema de visión artificial utilizando ROS, una c�
     ```
 5. **Conectar la cámara Kinect**:
     Asegúrate de que la Kinect esté correctamente conectada a la Jetson Nano y sea reconocida.
+
+   
+### Instalación (para otra distro de ROS 2)
+1. **Crear un workspace vacío**:
+    ```bash
+    mkdir -p ~/ros2_ws/src
+    cd ~/ros2_ws
+    colcon build
+    ```
+
+2. **Clonar el repositorio en una carpeta separada**:
+    ```bash
+    mkdir -p ~/Documents
+    cd ~/Documents
+    git clone https://github.com/pericao320/ros2_ws.git
+    ```
+
+3. **Copiar la carpeta `src` al workspace**:
+    ```bash
+    cp -r ~/Documents/ros2_ws/src ~/ros2_ws/
+    ```
+
+4. **Compilar los paquetes**:
+    ```bash
+    cd ~/ros2_ws
+    colcon build
+    source install/setup.bash
+    ```
+
+5. **Conectar la cámara Kinect**:
+    Asegúrate de que la Kinect esté correctamente conectada y reconocida por tu sistema.
+
 
 ## Uso
 1. **Lanzar el sistema**:

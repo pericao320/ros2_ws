@@ -1,0 +1,204 @@
+[0.018s] Invoking command in '/home/pericao/ros2_ws/build/libfreenect': /usr/bin/cmake /home/pericao/ros2_ws/src/libfreenect -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/install/libfreenect
+[0.066s] -- The C compiler identification is GNU 9.4.0
+[0.113s] -- The CXX compiler identification is GNU 9.4.0
+[0.113s] -- Check for working C compiler: /usr/bin/cc
+[0.197s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.197s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.279s] -- Detecting C compile features
+[0.280s] -- Detecting C compile features - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.346s] -- Detecting CXX compiler ABI info
+[0.404s] -- Detecting CXX compiler ABI info - done
+[0.412s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.412s] -- Operating system is Linux
+[0.412s] -- Got System Processor x86_64
+[0.413s] -- Linux x86_64 Detected
+[0.413s] -- libfreenect will be installed to /home/pericao/ros2_ws/install/libfreenect
+[0.413s] -- Headers will be installed to /home/pericao/ros2_ws/install/libfreenect/include/libfreenect
+[0.413s] -- Libraries will be installed to /home/pericao/ros2_ws/install/libfreenect/lib
+[0.418s] -- Found libusb-1.0:
+[0.418s] --  - Includes: /usr/include/libusb-1.0
+[0.418s] --  - Libraries: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[0.419s] -- Check if the system is big endian
+[0.419s] -- Searching 16 bit integer
+[0.419s] -- Looking for sys/types.h
+[0.478s] -- Looking for sys/types.h - found
+[0.478s] -- Looking for stdint.h
+[0.542s] -- Looking for stdint.h - found
+[0.542s] -- Looking for stddef.h
+[0.609s] -- Looking for stddef.h - found
+[0.609s] -- Check size of unsigned short
+[0.666s] -- Check size of unsigned short - done
+[0.666s] -- Using unsigned short
+[0.720s] -- Check if the system is big endian - little endian
+[0.722s] -- Looking for include file pthread.h
+[0.794s] -- Looking for include file pthread.h - found
+[0.794s] -- Looking for pthread_create in pthreads
+[0.850s] -- Looking for pthread_create in pthreads - not found
+[0.850s] -- Looking for pthread_create in pthread
+[0.908s] -- Looking for pthread_create in pthread - found
+[0.909s] -- Found Threads: TRUE  
+[0.913s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[0.917s] -- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+[0.925s] -- Configuring done
+[0.953s] -- Generating done
+[0.961s] -- Build files have been written to: /home/pericao/ros2_ws/build/libfreenect
+[0.969s] Invoked command in '/home/pericao/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake /home/pericao/ros2_ws/src/libfreenect -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/install/libfreenect
+[0.970s] Invoking command in '/home/pericao/ros2_ws/build/libfreenect': /usr/bin/cmake --build /home/pericao/ros2_ws/build/libfreenect -- -j2 -l2
+[1.013s] [35m[1mScanning dependencies of target freenectstatic[0m
+[1.027s] [35m[1mScanning dependencies of target freenect[0m
+[1.037s] [  1%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/core.c.o[0m
+[1.051s] [  3%] [32mBuilding C object src/CMakeFiles/freenect.dir/core.c.o[0m
+[1.119s] [  5%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/tilt.c.o[0m
+[1.191s] [  7%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/cameras.c.o[0m
+[1.218s] [01m[K/home/pericao/ros2_ws/src/libfreenect/src/cameras.c:74:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinvalid_mode[m[K’ defined but not used [[01;35m[K-Wunused-const-variable=[m[K]
+[1.219s]    74 | static const freenect_frame_mode [01;35m[Kinvalid_mode[m[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};
+[1.219s]       |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[1.253s] [  9%] [32mBuilding C object src/CMakeFiles/freenect.dir/tilt.c.o[0m
+[1.413s] [ 11%] [32mBuilding C object src/CMakeFiles/freenect.dir/cameras.c.o[0m
+[1.427s] [ 13%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/flags.c.o[0m
+[1.447s] [01m[K/home/pericao/ros2_ws/src/libfreenect/src/cameras.c:74:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinvalid_mode[m[K’ defined but not used [[01;35m[K-Wunused-const-variable=[m[K]
+[1.447s]    74 | static const freenect_frame_mode [01;35m[Kinvalid_mode[m[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};
+[1.447s]       |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[1.601s] [ 15%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.o[0m
+[1.654s] [ 16%] [32mBuilding C object src/CMakeFiles/freenect.dir/flags.c.o[0m
+[1.717s] [ 18%] [32mBuilding C object src/CMakeFiles/freenect.dir/usb_libusb10.c.o[0m
+[1.794s] [ 20%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/registration.c.o[0m
+[1.859s] [ 22%] [32mBuilding C object src/CMakeFiles/freenect.dir/registration.c.o[0m
+[1.901s] [ 24%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/audio.c.o[0m
+[1.966s] [ 26%] [32mBuilding C object src/CMakeFiles/freenect.dir/audio.c.o[0m
+[1.967s] [ 28%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/loader.c.o[0m
+[1.985s] [01m[K/home/pericao/ros2_ws/src/libfreenect/src/loader.c:82:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcheck_version_string[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.985s]    82 | static int [01;35m[Kcheck_version_string[m[K(fnusb_dev* dev) {
+[1.985s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.024s] [ 30%] [32mBuilding C object src/CMakeFiles/freenect.dir/loader.c.o[0m
+[2.042s] [01m[K/home/pericao/ros2_ws/src/libfreenect/src/loader.c:82:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcheck_version_string[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[2.043s]    82 | static int [01;35m[Kcheck_version_string[m[K(fnusb_dev* dev) {
+[2.043s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.058s] [ 32%] [32m[1mLinking C static library ../lib/libfreenect.a[0m
+[2.088s] [ 32%] Built target freenectstatic
+[2.097s] [35m[1mScanning dependencies of target fakenect[0m
+[2.107s] [ 33%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/fakenect.c.o[0m
+[2.109s] [ 35%] [32m[1mLinking C shared library ../lib/libfreenect.so[0m
+[2.153s] [ 35%] Built target freenect
+[2.166s] [35m[1mScanning dependencies of target freenect-wavrecord[0m
+[2.178s] [ 37%] [32mBuilding C object examples/CMakeFiles/freenect-wavrecord.dir/wavrecord.c.o[0m
+[2.219s] [ 39%] [32m[1mLinking C executable ../bin/freenect-wavrecord[0m
+[2.237s] [ 41%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/parson.c.o[0m
+[2.251s] [ 41%] Built target freenect-wavrecord
+[2.259s] [35m[1mScanning dependencies of target freenect_sync[0m
+[2.271s] [ 43%] [32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync.dir/libfreenect_sync.c.o[0m
+[2.360s] [ 45%] [32m[1mLinking C shared library ../../lib/libfreenect_sync.so[0m
+[2.403s] [ 45%] Built target freenect_sync
+[2.412s] [35m[1mScanning dependencies of target freenect-camtest[0m
+[2.423s] [ 47%] [32mBuilding C object examples/CMakeFiles/freenect-camtest.dir/camtest.c.o[0m
+[2.463s] [ 49%] [32m[1mLinking C executable ../bin/freenect-camtest[0m
+[2.491s] [ 49%] Built target freenect-camtest
+[2.500s] [35m[1mScanning dependencies of target freenect-glview[0m
+[2.512s] [ 50%] [32mBuilding C object examples/CMakeFiles/freenect-glview.dir/glview.c.o[0m
+[2.581s] [ 52%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/__/src/registration.c.o[0m
+[2.624s] [ 54%] [32m[1mLinking C executable ../bin/freenect-glview[0m
+[2.668s] [ 54%] Built target freenect-glview
+[2.678s] [35m[1mScanning dependencies of target freenect-regview[0m
+[2.688s] [ 56%] [32m[1mLinking C shared library ../lib/fakenect/libfakenect.so[0m
+[2.690s] [ 58%] [32mBuilding C object examples/CMakeFiles/freenect-regview.dir/regview.c.o[0m
+[2.736s] [ 58%] Built target fakenect
+[2.747s] [35m[1mScanning dependencies of target freenect-regtest[0m
+[2.763s] [ 60%] [32mBuilding C object examples/CMakeFiles/freenect-regtest.dir/regtest.c.o[0m
+[2.790s] [ 62%] [32m[1mLinking C executable ../bin/freenect-regview[0m
+[2.807s] [ 64%] [32m[1mLinking C executable ../bin/freenect-regtest[0m
+[2.832s] [ 64%] Built target freenect-regview
+[2.838s] [ 64%] Built target freenect-regtest
+[2.838s] [35m[1mScanning dependencies of target freenect-tiltdemo[0m
+[2.847s] [35m[1mScanning dependencies of target freenect-chunkview[0m
+[2.853s] [ 66%] [32mBuilding C object examples/CMakeFiles/freenect-tiltdemo.dir/tiltdemo.c.o[0m
+[2.862s] [ 67%] [32mBuilding C object examples/CMakeFiles/freenect-chunkview.dir/chunkview.c.o[0m
+[2.900s] [ 69%] [32m[1mLinking C executable ../bin/freenect-tiltdemo[0m
+[2.934s] [ 69%] Built target freenect-tiltdemo
+[2.945s] [35m[1mScanning dependencies of target freenect-micview[0m
+[2.959s] [ 71%] [32mBuilding C object examples/CMakeFiles/freenect-micview.dir/micview.c.o[0m
+[2.967s] [ 73%] [32m[1mLinking C executable ../bin/freenect-chunkview[0m
+[3.005s] [ 73%] Built target freenect-chunkview
+[3.012s] [35m[1mScanning dependencies of target freenect-hiview[0m
+[3.024s] [ 75%] [32mBuilding C object examples/CMakeFiles/freenect-hiview.dir/hiview.c.o[0m
+[3.045s] [ 77%] [32m[1mLinking C executable ../bin/freenect-micview[0m
+[3.084s] [ 77%] Built target freenect-micview
+[3.093s] [35m[1mScanning dependencies of target fakenect-record[0m
+[3.103s] [ 79%] [32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/record.c.o[0m
+[3.130s] [ 81%] [32m[1mLinking C executable ../bin/freenect-hiview[0m
+[3.169s] [ 81%] Built target freenect-hiview
+[3.177s] [35m[1mScanning dependencies of target freenect_sync_static[0m
+[3.188s] [ 83%] [32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o[0m
+[3.217s] [ 84%] [32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/parson.c.o[0m
+[3.276s] [ 86%] [32m[1mLinking C static library ../../lib/libfreenect_sync.a[0m
+[3.301s] [ 86%] Built target freenect_sync_static
+[3.310s] [35m[1mScanning dependencies of target freenect-cpp_pcview[0m
+[3.321s] [ 88%] [32mBuilding CXX object wrappers/cpp/CMakeFiles/freenect-cpp_pcview.dir/cpp_pc_view.cpp.o[0m
+[3.620s] [ 90%] [32m[1mLinking C executable ../bin/fakenect-record[0m
+[3.654s] [ 90%] Built target fakenect-record
+[3.662s] [35m[1mScanning dependencies of target freenect-cppview[0m
+[3.674s] [ 92%] [32mBuilding CXX object wrappers/cpp/CMakeFiles/freenect-cppview.dir/cppview.cpp.o[0m
+[3.833s] [ 94%] [32m[1mLinking CXX executable ../../bin/freenect-cpp_pcview[0m
+[3.908s] [ 94%] Built target freenect-cpp_pcview
+[3.921s] [35m[1mScanning dependencies of target freenect-glpclview[0m
+[3.939s] [ 96%] [32mBuilding C object examples/CMakeFiles/freenect-glpclview.dir/glpclview.c.o[0m
+[4.020s] [ 98%] [32m[1mLinking C executable ../bin/freenect-glpclview[0m
+[4.059s] [ 98%] Built target freenect-glpclview
+[4.269s] [100%] [32m[1mLinking CXX executable ../../bin/freenect-cppview[0m
+[4.338s] [100%] Built target freenect-cppview
+[4.349s] Invoked command in '/home/pericao/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --build /home/pericao/ros2_ws/build/libfreenect -- -j2 -l2
+[4.361s] Invoking command in '/home/pericao/ros2_ws/build/libfreenect': /usr/bin/cmake --install /home/pericao/ros2_ws/build/libfreenect
+[4.369s] -- Install configuration: ""
+[4.369s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/share/libfreenect/libfreenectConfig.cmake
+[4.370s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/share/fwfetcher.py
+[4.370s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/libfreenect.so.0.7.5
+[4.370s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/libfreenect.so.0
+[4.371s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/libfreenect.so
+[4.371s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/libfreenect.a
+[4.371s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.h
+[4.371s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_registration.h
+[4.371s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_audio.h
+[4.372s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/pkgconfig/libfreenect.pc
+[4.372s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-camtest
+[4.372s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-camtest" to ""
+[4.373s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-wavrecord
+[4.373s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-wavrecord" to ""
+[4.373s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-glview
+[4.373s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-glview" to ""
+[4.373s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-regview
+[4.374s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-regview" to ""
+[4.374s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-hiview
+[4.374s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-hiview" to ""
+[4.375s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-chunkview
+[4.375s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-chunkview" to ""
+[4.375s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-micview
+[4.376s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-micview" to ""
+[4.376s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-regtest
+[4.376s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-regtest" to ""
+[4.376s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-tiltdemo
+[4.376s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-tiltdemo" to ""
+[4.376s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-glpclview
+[4.377s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-glpclview" to ""
+[4.377s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0.7.5
+[4.377s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0
+[4.378s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so
+[4.378s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/fakenect-record
+[4.378s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/fakenect-record" to ""
+[4.378s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/fakenect
+[4.378s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/share/man/man1/fakenect.1
+[4.379s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/share/man/man1/fakenect-record.1
+[4.379s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5
+[4.379s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0
+[4.379s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5" to ""
+[4.379s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/libfreenect_sync.so
+[4.380s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/lib/libfreenect_sync.a
+[4.380s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_sync.h
+[4.380s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.hpp
+[4.380s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-cppview
+[4.381s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-cppview" to ""
+[4.381s] -- Installing: /home/pericao/ros2_ws/install/libfreenect/bin/freenect-cpp_pcview
+[4.381s] -- Set runtime path of "/home/pericao/ros2_ws/install/libfreenect/bin/freenect-cpp_pcview" to ""
+[4.383s] Invoked command in '/home/pericao/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --install /home/pericao/ros2_ws/build/libfreenect

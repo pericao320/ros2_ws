@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/kinect_depth/kinect_depth.egg-info/PKG-INFO
+../../build/kinect_depth/kinect_depth.egg-info/SOURCES.txt
+../../build/kinect_depth/kinect_depth.egg-info/dependency_links.txt
+../../build/kinect_depth/kinect_depth.egg-info/entry_points.txt
+../../build/kinect_depth/kinect_depth.egg-info/requires.txt
+../../build/kinect_depth/kinect_depth.egg-info/top_level.txt
+../../build/kinect_depth/kinect_depth.egg-info/zip-safe
+kinect_depth/__init__.py
+kinect_depth/depth_publisher.py
+resource/kinect_depth
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

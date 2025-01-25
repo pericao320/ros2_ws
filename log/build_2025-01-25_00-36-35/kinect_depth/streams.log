@@ -1,0 +1,37 @@
+[0.513s] Invoking command in '/home/pericao/ros2_ws/src/kinect_depth': PYTHONPATH=/home/pericao/ros2_ws/build/kinect_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinect_depth build --build-base /home/pericao/ros2_ws/build/kinect_depth/build install --record /home/pericao/ros2_ws/build/kinect_depth/install.log --single-version-externally-managed install_data
+[0.661s] running egg_info
+[0.661s] creating ../../build/kinect_depth/kinect_depth.egg-info
+[0.661s] writing ../../build/kinect_depth/kinect_depth.egg-info/PKG-INFO
+[0.661s] writing dependency_links to ../../build/kinect_depth/kinect_depth.egg-info/dependency_links.txt
+[0.661s] writing entry points to ../../build/kinect_depth/kinect_depth.egg-info/entry_points.txt
+[0.661s] writing requirements to ../../build/kinect_depth/kinect_depth.egg-info/requires.txt
+[0.662s] writing top-level names to ../../build/kinect_depth/kinect_depth.egg-info/top_level.txt
+[0.662s] writing manifest file '../../build/kinect_depth/kinect_depth.egg-info/SOURCES.txt'
+[0.686s] reading manifest file '../../build/kinect_depth/kinect_depth.egg-info/SOURCES.txt'
+[0.687s] writing manifest file '../../build/kinect_depth/kinect_depth.egg-info/SOURCES.txt'
+[0.687s] running build
+[0.687s] running build_py
+[0.688s] creating /home/pericao/ros2_ws/build/kinect_depth/build
+[0.688s] creating /home/pericao/ros2_ws/build/kinect_depth/build/lib
+[0.688s] creating /home/pericao/ros2_ws/build/kinect_depth/build/lib/kinect_depth
+[0.688s] copying kinect_depth/__init__.py -> /home/pericao/ros2_ws/build/kinect_depth/build/lib/kinect_depth
+[0.688s] copying kinect_depth/depth_publisher.py -> /home/pericao/ros2_ws/build/kinect_depth/build/lib/kinect_depth
+[0.688s] running install
+[0.689s] running install_lib
+[0.690s] creating /home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth
+[0.690s] copying /home/pericao/ros2_ws/build/kinect_depth/build/lib/kinect_depth/__init__.py -> /home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth
+[0.690s] copying /home/pericao/ros2_ws/build/kinect_depth/build/lib/kinect_depth/depth_publisher.py -> /home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth
+[0.691s] byte-compiling /home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth/__init__.py to __init__.cpython-38.pyc
+[0.692s] byte-compiling /home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth/depth_publisher.py to depth_publisher.cpython-38.pyc
+[0.692s] running install_data
+[0.693s] creating /home/pericao/ros2_ws/install/kinect_depth/share/ament_index
+[0.693s] creating /home/pericao/ros2_ws/install/kinect_depth/share/ament_index/resource_index
+[0.693s] creating /home/pericao/ros2_ws/install/kinect_depth/share/ament_index/resource_index/packages
+[0.693s] copying resource/kinect_depth -> /home/pericao/ros2_ws/install/kinect_depth/share/ament_index/resource_index/packages
+[0.693s] copying package.xml -> /home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth
+[0.693s] running install_egg_info
+[0.695s] Copying ../../build/kinect_depth/kinect_depth.egg-info to /home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth-0.0.0-py3.8.egg-info
+[0.696s] running install_scripts
+[0.709s] Installing depth_publisher script to /home/pericao/ros2_ws/install/kinect_depth/lib/kinect_depth
+[0.709s] writing list of installed files to '/home/pericao/ros2_ws/build/kinect_depth/install.log'
+[0.732s] Invoked command in '/home/pericao/ros2_ws/src/kinect_depth' returned '0': PYTHONPATH=/home/pericao/ros2_ws/build/kinect_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinect_depth build --build-base /home/pericao/ros2_ws/build/kinect_depth/build install --record /home/pericao/ros2_ws/build/kinect_depth/install.log --single-version-externally-managed install_data

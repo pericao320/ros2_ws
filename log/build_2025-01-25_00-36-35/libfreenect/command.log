@@ -1,0 +1,6 @@
+Invoking command in '/home/pericao/ros2_ws/build/libfreenect': /usr/bin/cmake /home/pericao/ros2_ws/src/libfreenect -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/install/libfreenect
+Invoked command in '/home/pericao/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake /home/pericao/ros2_ws/src/libfreenect -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/install/libfreenect
+Invoking command in '/home/pericao/ros2_ws/build/libfreenect': /usr/bin/cmake --build /home/pericao/ros2_ws/build/libfreenect -- -j2 -l2
+Invoked command in '/home/pericao/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --build /home/pericao/ros2_ws/build/libfreenect -- -j2 -l2
+Invoking command in '/home/pericao/ros2_ws/build/libfreenect': /usr/bin/cmake --install /home/pericao/ros2_ws/build/libfreenect
+Invoked command in '/home/pericao/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --install /home/pericao/ros2_ws/build/libfreenect

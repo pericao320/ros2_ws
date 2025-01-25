@@ -1,0 +1,316 @@
+[0.128s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.128s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5e4727cc40>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5e4727cc40>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5e47262c10>)
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.225s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pericao/ros2_ws'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kinect_depth' with type 'ros.ament_python' and name 'kinect_depth'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kinect_ros2' with type 'ros.ament_cmake' and name 'kinect_ros2'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'python'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libfreenect' with type 'cmake' and name 'libfreenect'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/talker_listener' with type 'ros.ament_python' and name 'talker_listener'
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.272s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 300 installed packages in /opt/ros/foxy
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'kinect_depth' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pericao/ros2_ws/build/kinect_depth', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pericao/ros2_ws/install/kinect_depth', 'merge_install': False, 'path': '/home/pericao/ros2_ws/src/kinect_depth', 'symlink_install': False, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'libfreenect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pericao/ros2_ws/build/libfreenect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pericao/ros2_ws/install/libfreenect', 'merge_install': False, 'path': '/home/pericao/ros2_ws/src/libfreenect', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'talker_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pericao/ros2_ws/build/talker_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pericao/ros2_ws/install/talker_listener', 'merge_install': False, 'path': '/home/pericao/ros2_ws/src/talker_listener', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'kinect_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pericao/ros2_ws/build/kinect_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pericao/ros2_ws/install/kinect_ros2', 'merge_install': False, 'path': '/home/pericao/ros2_ws/src/kinect_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.327s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.328s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.329s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pericao/ros2_ws/src/libfreenect'
+[0.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.336s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pericao/ros2_ws/src/kinect_depth' with build type 'ament_python'
+[0.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_depth', 'ament_prefix_path')
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/hook/ament_prefix_path.ps1'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/hook/ament_prefix_path.dsv'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/hook/ament_prefix_path.sh'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pericao/ros2_ws/build/libfreenect': /usr/bin/cmake /home/pericao/ros2_ws/src/libfreenect -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/install/libfreenect
+[0.556s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pericao/ros2_ws/src/kinect_depth'
+[0.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pericao/ros2_ws/src/kinect_depth': PYTHONPATH=/home/pericao/ros2_ws/build/kinect_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinect_depth build --build-base /home/pericao/ros2_ws/build/kinect_depth/build install --record /home/pericao/ros2_ws/build/kinect_depth/install.log --single-version-externally-managed install_data
+[1.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pericao/ros2_ws/src/kinect_depth' returned '0': PYTHONPATH=/home/pericao/ros2_ws/build/kinect_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinect_depth build --build-base /home/pericao/ros2_ws/build/kinect_depth/build install --record /home/pericao/ros2_ws/build/kinect_depth/install.log --single-version-externally-managed install_data
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_depth' for CMake module files
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_depth' for CMake config files
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_depth/lib'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_depth/bin'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_depth/lib/pkgconfig/kinect_depth.pc'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_depth/lib/python3.8/site-packages'
+[1.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_depth', 'pythonpath')
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/hook/pythonpath.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/hook/pythonpath.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/hook/pythonpath.sh'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_depth/bin'
+[1.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinect_depth)
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/package.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/package.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/package.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/package.bash'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_depth/share/kinect_depth/package.zsh'
+[1.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pericao/ros2_ws/install/kinect_depth/share/colcon-core/packages/kinect_depth)
+[1.076s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pericao/ros2_ws/src/talker_listener' with build type 'ament_python'
+[1.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'ament_prefix_path')
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/hook/ament_prefix_path.ps1'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/hook/ament_prefix_path.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/hook/ament_prefix_path.sh'
+[1.078s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.257s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pericao/ros2_ws/src/talker_listener'
+[1.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pericao/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake /home/pericao/ros2_ws/src/libfreenect -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/install/libfreenect
+[1.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pericao/ros2_ws/build/libfreenect': /usr/bin/cmake --build /home/pericao/ros2_ws/build/libfreenect -- -j2 -l2
+[1.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pericao/ros2_ws/src/talker_listener': PYTHONPATH=/home/pericao/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/talker_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/pericao/ros2_ws/build/talker_listener/build install --record /home/pericao/ros2_ws/build/talker_listener/install.log --single-version-externally-managed install_data
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/talker_listener' for CMake module files
+[1.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pericao/ros2_ws/src/talker_listener' returned '0': PYTHONPATH=/home/pericao/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pericao/ros2_ws/install/talker_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/pericao/ros2_ws/build/talker_listener/build install --record /home/pericao/ros2_ws/build/talker_listener/install.log --single-version-externally-managed install_data
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/talker_listener' for CMake config files
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/talker_listener/lib'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/talker_listener/bin'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/talker_listener/lib/pkgconfig/talker_listener.pc'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/talker_listener/lib/python3.8/site-packages'
+[1.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'pythonpath')
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/hook/pythonpath.ps1'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/hook/pythonpath.dsv'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/hook/pythonpath.sh'
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/talker_listener/bin'
+[1.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talker_listener)
+[1.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/package.ps1'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/package.dsv'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/package.sh'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/package.bash'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/talker_listener/share/talker_listener/package.zsh'
+[1.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pericao/ros2_ws/install/talker_listener/share/colcon-core/packages/talker_listener)
+[4.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pericao/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --build /home/pericao/ros2_ws/build/libfreenect -- -j2 -l2
+[4.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pericao/ros2_ws/build/libfreenect': /usr/bin/cmake --install /home/pericao/ros2_ws/build/libfreenect
+[4.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libfreenect)
+[4.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pericao/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --install /home/pericao/ros2_ws/build/libfreenect
+[4.713s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/libfreenect' for CMake module files
+[4.713s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/libfreenect' for CMake config files
+[4.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfreenect', 'cmake_prefix_path')
+[4.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/cmake_prefix_path.ps1'
+[4.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/cmake_prefix_path.dsv'
+[4.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/cmake_prefix_path.sh'
+[4.715s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/libfreenect/lib'
+[4.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfreenect', 'ld_library_path_lib')
+[4.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/ld_library_path_lib.ps1'
+[4.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/ld_library_path_lib.dsv'
+[4.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/ld_library_path_lib.sh'
+[4.716s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/libfreenect/bin'
+[4.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfreenect', 'path')
+[4.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/path.ps1'
+[4.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/path.dsv'
+[4.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/path.sh'
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/libfreenect/lib/pkgconfig/libfreenect.pc'
+[4.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfreenect', 'pkg_config')
+[4.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/pkg_config.ps1'
+[4.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/pkg_config.dsv'
+[4.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/pkg_config.sh'
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/libfreenect/lib/python3.8/site-packages'
+[4.718s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/libfreenect/bin'
+[4.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfreenect', 'pythonscriptspath')
+[4.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/pythonscriptspath.ps1'
+[4.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/pythonscriptspath.dsv'
+[4.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/hook/pythonscriptspath.sh'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/package.ps1'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/package.dsv'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/package.sh'
+[4.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/package.bash'
+[4.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/libfreenect/share/libfreenect/package.zsh'
+[4.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pericao/ros2_ws/install/libfreenect/share/colcon-core/packages/libfreenect)
+[4.720s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pericao/ros2_ws/src/kinect_ros2' with build type 'ament_cmake'
+[4.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pericao/ros2_ws/src/kinect_ros2'
+[4.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pericao/ros2_ws/build/kinect_ros2': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/libfreenect:/opt/ros/foxy LD_LIBRARY_PATH=/home/pericao/ros2_ws/install/libfreenect/lib:${LD_LIBRARY_PATH} PATH=/home/pericao/ros2_ws/install/libfreenect/bin:${PATH} PKG_CONFIG_PATH=/home/pericao/ros2_ws/install/libfreenect/lib/pkgconfig /usr/bin/cmake /home/pericao/ros2_ws/src/kinect_ros2 -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/install/kinect_ros2
+[6.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pericao/ros2_ws/build/kinect_ros2' returned '0': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/libfreenect:/opt/ros/foxy LD_LIBRARY_PATH=/home/pericao/ros2_ws/install/libfreenect/lib:${LD_LIBRARY_PATH} PATH=/home/pericao/ros2_ws/install/libfreenect/bin:${PATH} PKG_CONFIG_PATH=/home/pericao/ros2_ws/install/libfreenect/lib/pkgconfig /usr/bin/cmake /home/pericao/ros2_ws/src/kinect_ros2 -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/install/kinect_ros2
+[6.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pericao/ros2_ws/build/kinect_ros2': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/libfreenect:/opt/ros/foxy LD_LIBRARY_PATH=/home/pericao/ros2_ws/install/libfreenect/lib:${LD_LIBRARY_PATH} PATH=/home/pericao/ros2_ws/install/libfreenect/bin:${PATH} PKG_CONFIG_PATH=/home/pericao/ros2_ws/install/libfreenect/lib/pkgconfig /usr/bin/cmake --build /home/pericao/ros2_ws/build/kinect_ros2 -- -j2 -l2
+[11.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pericao/ros2_ws/build/kinect_ros2' returned '0': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/libfreenect:/opt/ros/foxy LD_LIBRARY_PATH=/home/pericao/ros2_ws/install/libfreenect/lib:${LD_LIBRARY_PATH} PATH=/home/pericao/ros2_ws/install/libfreenect/bin:${PATH} PKG_CONFIG_PATH=/home/pericao/ros2_ws/install/libfreenect/lib/pkgconfig /usr/bin/cmake --build /home/pericao/ros2_ws/build/kinect_ros2 -- -j2 -l2
+[11.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pericao/ros2_ws/build/kinect_ros2': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/libfreenect:/opt/ros/foxy LD_LIBRARY_PATH=/home/pericao/ros2_ws/install/libfreenect/lib:${LD_LIBRARY_PATH} PATH=/home/pericao/ros2_ws/install/libfreenect/bin:${PATH} PKG_CONFIG_PATH=/home/pericao/ros2_ws/install/libfreenect/lib/pkgconfig /usr/bin/cmake --install /home/pericao/ros2_ws/build/kinect_ros2
+[11.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinect_ros2)
+[11.200s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2' for CMake module files
+[11.200s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2' for CMake config files
+[11.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_ros2', 'cmake_prefix_path')
+[11.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.ps1'
+[11.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.dsv'
+[11.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.sh'
+[11.201s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2/lib'
+[11.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_ros2', 'ld_library_path_lib')
+[11.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.ps1'
+[11.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.dsv'
+[11.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.sh'
+[11.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pericao/ros2_ws/build/kinect_ros2' returned '0': CMAKE_PREFIX_PATH=/home/pericao/ros2_ws/install/libfreenect:/opt/ros/foxy LD_LIBRARY_PATH=/home/pericao/ros2_ws/install/libfreenect/lib:${LD_LIBRARY_PATH} PATH=/home/pericao/ros2_ws/install/libfreenect/bin:${PATH} PKG_CONFIG_PATH=/home/pericao/ros2_ws/install/libfreenect/lib/pkgconfig /usr/bin/cmake --install /home/pericao/ros2_ws/build/kinect_ros2
+[11.203s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2/bin'
+[11.203s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2/lib/pkgconfig/kinect_ros2.pc'
+[11.203s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2/lib/python3.8/site-packages'
+[11.203s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2/bin'
+[11.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.ps1'
+[11.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.dsv'
+[11.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.sh'
+[11.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.bash'
+[11.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.zsh'
+[11.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pericao/ros2_ws/install/kinect_ros2/share/colcon-core/packages/kinect_ros2)
+[11.205s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinect_ros2)
+[11.205s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2' for CMake module files
+[11.206s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2' for CMake config files
+[11.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_ros2', 'cmake_prefix_path')
+[11.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.ps1'
+[11.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.dsv'
+[11.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.sh'
+[11.207s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2/lib'
+[11.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_ros2', 'ld_library_path_lib')
+[11.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.ps1'
+[11.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.dsv'
+[11.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.sh'
+[11.208s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2/bin'
+[11.208s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2/lib/pkgconfig/kinect_ros2.pc'
+[11.208s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2/lib/python3.8/site-packages'
+[11.208s] Level 1:colcon.colcon_core.environment:checking '/home/pericao/ros2_ws/install/kinect_ros2/bin'
+[11.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.ps1'
+[11.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.dsv'
+[11.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.sh'
+[11.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.bash'
+[11.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/pericao/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.zsh'
+[11.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pericao/ros2_ws/install/kinect_ros2/share/colcon-core/packages/kinect_ros2)
+[11.211s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.211s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.212s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.212s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.221s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.221s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.221s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.237s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pericao/ros2_ws/install/local_setup.ps1'
+[11.239s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pericao/ros2_ws/install/_local_setup_util_ps1.py'
+[11.240s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pericao/ros2_ws/install/setup.ps1'
+[11.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pericao/ros2_ws/install/local_setup.sh'
+[11.241s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pericao/ros2_ws/install/_local_setup_util_sh.py'
+[11.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pericao/ros2_ws/install/setup.sh'
+[11.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pericao/ros2_ws/install/local_setup.bash'
+[11.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pericao/ros2_ws/install/setup.bash'
+[11.244s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pericao/ros2_ws/install/local_setup.zsh'
+[11.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pericao/ros2_ws/install/setup.zsh'

@@ -120,6 +120,8 @@ Si encuentras errores relacionados con la configuración de paquetes o bibliotec
     ```bash
     export ROS_DOMAIN_ID=0
     export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    # O puedes usar
+    # export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
     ```
 
 ## Créditos

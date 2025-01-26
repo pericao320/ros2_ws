@@ -83,7 +83,25 @@ Este proyecto implementa un sistema de visión artificial utilizando ROS, una c�
 
 5. **Conectar la cámara Kinect**:
     Asegúrate de que la Kinect esté correctamente conectada y reconocida por tu sistema.
+   
+### Resolución de problemas comunes
 
+Si encuentras errores relacionados con la configuración de paquetes o bibliotecas, sigue estos pasos:
+
+1. **Instalar dependencias faltantes**:
+   Asegúrate de que todas las dependencias necesarias están instaladas, especialmente `libfreenect`:
+   sudo apt update
+   sudo apt install libfreenect-dev
+
+2. **Actualizar las variables de entorno**:
+   Si el paquete no se encuentra al intentar lanzarlo, asegúrate de incluir el espacio de trabajo en las rutas de ROS 2:
+   echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+   source ~/.bashrc
+
+3. **Verificar la instalación del paquete**:
+   Confirma que el paquete `kinect_ros2` está registrado:
+   ros2 pkg list | grep kinect_ros2
+```
 
 ## Uso
 1. **Lanzar el sistema**:

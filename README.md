@@ -88,6 +88,7 @@ Este proyecto implementa un sistema de visi√≥n artificial utilizando ROS, una c√
 ## Uso
 1. **Lanzar el sistema**:
     ```bash
+    source ~/.bashrc
     ros2 launch kinect_ros2 pointcloud.launch.py
     ```
 2. **Visualizar en RViz**:

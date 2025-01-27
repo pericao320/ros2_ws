@@ -117,11 +117,12 @@ Si encuentras errores relacionados con la configuración de paquetes o bibliotec
     - Observa la representación en 3D del entorno circundante.
 
 3. **Conexión ROS_DDS**:
+   Configura estos en el archivo ~/.bashrc
     ```bash
     export ROS_DOMAIN_ID=0
     export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
     # O puedes usar
-    # export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    # export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
     ```
 
 ## Créditos

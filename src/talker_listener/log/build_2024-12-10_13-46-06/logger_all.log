@@ -1,0 +1,89 @@
+[0.888s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.888s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f983dc1f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f983dc1f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f98341f70>)
+[1.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.869s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ros2_ws/src/talker_listener'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.966s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'talker_listener'
+[1.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.041s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.041s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.052s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 268 installed packages in /opt/ros/galactic
+[2.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_args' from command line to 'None'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target' from command line to 'None'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_first' from command line to 'False'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_force_configure' from command line to 'False'
+[2.398s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'ament_cmake_args' from command line to 'None'
+[2.399s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[2.399s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.399s] DEBUG:colcon.colcon_core.verb:Building package 'talker_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/src/talker_listener/build/talker_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/talker_listener', 'symlink_install': False, 'test_result_base': None}
+[2.400s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.403s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.404s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/talker_listener' with build type 'ament_python'
+[2.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'ament_prefix_path')
+[2.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/hook/ament_prefix_path.ps1'
+[2.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/hook/ament_prefix_path.dsv'
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/hook/ament_prefix_path.sh'
+[2.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.843s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/talker_listener'
+[3.845s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/src/talker_listener': PYTHONPATH=/home/jetson/ros2_ws/src/talker_listener/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/talker_listener build --build-base /home/jetson/ros2_ws/src/talker_listener/build/talker_listener/build install --record /home/jetson/ros2_ws/src/talker_listener/build/talker_listener/install.log --single-version-externally-managed install_data
+[7.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/src/talker_listener' returned '0': PYTHONPATH=/home/jetson/ros2_ws/src/talker_listener/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/talker_listener build --build-base /home/jetson/ros2_ws/src/talker_listener/build/talker_listener/build install --record /home/jetson/ros2_ws/src/talker_listener/build/talker_listener/install.log --single-version-externally-managed install_data
+[7.622s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener' for CMake module files
+[7.625s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener' for CMake config files
+[7.629s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/bin'
+[7.631s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/pkgconfig/talker_listener.pc'
+[7.632s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/python3.8/site-packages'
+[7.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'pythonpath')
+[7.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/hook/pythonpath.ps1'
+[7.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/hook/pythonpath.dsv'
+[7.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/hook/pythonpath.sh'
+[7.642s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/bin'
+[7.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talker_listener)
+[7.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/package.ps1'
+[7.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/package.dsv'
+[7.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/package.sh'
+[7.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/package.bash'
+[7.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener/package.zsh'
+[7.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/colcon-core/packages/talker_listener)
+[7.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.668s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.668s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.704s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.704s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.705s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.772s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.774s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/src/talker_listener/install/local_setup.ps1'
+[7.778s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/src/talker_listener/install/_local_setup_util_ps1.py'
+[7.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/src/talker_listener/install/setup.ps1'
+[7.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/src/talker_listener/install/local_setup.sh'
+[7.792s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/src/talker_listener/install/_local_setup_util_sh.py'
+[7.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/src/talker_listener/install/setup.sh'
+[7.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/src/talker_listener/install/local_setup.bash'
+[7.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/src/talker_listener/install/setup.bash'
+[7.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/src/talker_listener/install/local_setup.zsh'
+[7.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/src/talker_listener/install/setup.zsh'

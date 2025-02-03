@@ -1,0 +1,876 @@
+[0.000000] (-) TimerEvent: {}
+[0.000481] (kinect_depth) JobQueued: {'identifier': 'kinect_depth', 'dependencies': OrderedDict()}
+[0.000616] (libfreenect) JobQueued: {'identifier': 'libfreenect', 'dependencies': OrderedDict()}
+[0.000712] (talker_listener) JobQueued: {'identifier': 'talker_listener', 'dependencies': OrderedDict()}
+[0.000849] (kinect_ros2) JobQueued: {'identifier': 'kinect_ros2', 'dependencies': OrderedDict([('libfreenect', '/home/jetson/ros2_ws/install/libfreenect')])}
+[0.001953] (libfreenect) JobStarted: {'identifier': 'libfreenect'}
+[0.036657] (kinect_depth) JobStarted: {'identifier': 'kinect_depth'}
+[0.065854] (talker_listener) JobStarted: {'identifier': 'talker_listener'}
+[0.099663] (-) TimerEvent: {}
+[0.100935] (libfreenect) JobProgress: {'identifier': 'libfreenect', 'progress': 'cmake'}
+[0.102820] (libfreenect) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros2_ws/src/libfreenect', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/libfreenect'], 'cwd': '/home/jetson/ros2_ws/build/libfreenect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '6750'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros2_ws/install/kinect_ros2/lib:/home/jetson/ros2_ws/install/libfreenect/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '6555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '8:35822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/ros2_ws/install/libfreenect/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/6785,unix/nano:/tmp/.ICE-unix/6785'), ('INVOCATION_ID', 'd62ee9243cfe487f96b214f816dfdb2c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bd4c197_a745_473b_a05b_ad004877b3b6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros2_ws/build/libfreenect'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/libfreenect')]), 'shell': False}
+[0.199884] (-) TimerEvent: {}
+[0.300641] (-) TimerEvent: {}
+[0.401286] (-) TimerEvent: {}
+[0.501837] (-) TimerEvent: {}
+[0.602441] (-) TimerEvent: {}
+[0.703021] (-) TimerEvent: {}
+[0.803734] (-) TimerEvent: {}
+[0.904356] (-) TimerEvent: {}
+[0.994306] (libfreenect) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.004877] (-) TimerEvent: {}
+[1.105642] (-) TimerEvent: {}
+[1.183751] (libfreenect) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.205780] (-) TimerEvent: {}
+[1.209706] (libfreenect) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.306002] (-) TimerEvent: {}
+[1.406641] (-) TimerEvent: {}
+[1.420113] (libfreenect) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.424776] (libfreenect) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.506838] (-) TimerEvent: {}
+[1.607463] (-) TimerEvent: {}
+[1.630142] (libfreenect) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.670246] (libfreenect) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.671935] (libfreenect) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.683036] (libfreenect) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.707623] (-) TimerEvent: {}
+[1.808345] (-) TimerEvent: {}
+[1.909797] (-) TimerEvent: {}
+[1.920973] (libfreenect) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.922276] (libfreenect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.009936] (-) TimerEvent: {}
+[2.110826] (-) TimerEvent: {}
+[2.171467] (libfreenect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.210986] (-) TimerEvent: {}
+[2.212472] (libfreenect) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.214303] (libfreenect) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.216872] (libfreenect) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[2.217405] (libfreenect) StdoutLine: {'line': b'-- Got System Processor aarch64\n'}
+[2.217931] (libfreenect) StdoutLine: {'line': b'-- libfreenect will be installed to /home/jetson/ros2_ws/install/libfreenect\n'}
+[2.218288] (libfreenect) StdoutLine: {'line': b'-- Headers will be installed to /home/jetson/ros2_ws/install/libfreenect/include/libfreenect\n'}
+[2.218641] (libfreenect) StdoutLine: {'line': b'-- Libraries will be installed to /home/jetson/ros2_ws/install/libfreenect/lib\n'}
+[2.257029] (libfreenect) StdoutLine: {'line': b'-- Found libusb-1.0:\n'}
+[2.257577] (libfreenect) StdoutLine: {'line': b'--  - Includes: /usr/include/libusb-1.0\n'}
+[2.257876] (libfreenect) StdoutLine: {'line': b'--  - Libraries: /usr/lib/aarch64-linux-gnu/libusb-1.0.so\n'}
+[2.261985] (libfreenect) StdoutLine: {'line': b'-- Check if the system is big endian\n'}
+[2.262462] (libfreenect) StdoutLine: {'line': b'-- Searching 16 bit integer\n'}
+[2.263412] (libfreenect) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[2.311189] (-) TimerEvent: {}
+[2.412054] (-) TimerEvent: {}
+[2.501464] (libfreenect) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[2.502332] (libfreenect) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[2.512241] (-) TimerEvent: {}
+[2.613160] (-) TimerEvent: {}
+[2.713972] (-) TimerEvent: {}
+[2.719344] (libfreenect) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[2.720192] (libfreenect) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[2.814164] (-) TimerEvent: {}
+[2.915016] (-) TimerEvent: {}
+[2.932546] (libfreenect) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[2.933180] (libfreenect) StdoutLine: {'line': b'-- Check size of unsigned short\n'}
+[3.015156] (-) TimerEvent: {}
+[3.116072] (-) TimerEvent: {}
+[3.163731] (libfreenect) StdoutLine: {'line': b'-- Check size of unsigned short - done\n'}
+[3.164395] (libfreenect) StdoutLine: {'line': b'-- Using unsigned short\n'}
+[3.216226] (-) TimerEvent: {}
+[3.316869] (-) TimerEvent: {}
+[3.390330] (libfreenect) StdoutLine: {'line': b'-- Check if the system is big endian - little endian\n'}
+[3.401062] (libfreenect) StdoutLine: {'line': b'-- Looking for include file pthread.h\n'}
+[3.417006] (-) TimerEvent: {}
+[3.517813] (-) TimerEvent: {}
+[3.618823] (-) TimerEvent: {}
+[3.671718] (libfreenect) StdoutLine: {'line': b'-- Looking for include file pthread.h - found\n'}
+[3.672528] (libfreenect) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.697809] (talker_listener) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/talker_listener', 'build', '--build-base', '/home/jetson/ros2_ws/build/talker_listener/build', 'install', '--record', '/home/jetson/ros2_ws/build/talker_listener/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ros2_ws/src/talker_listener', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'LC_TIME': 'nl_NL.UTF-8', 'SSH_AGENT_PID': '6750', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/ros2_ws/install/kinect_ros2/lib:/home/jetson/ros2_ws/install/libfreenect/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'MANAGERPID': '6555', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JOURNAL_STREAM': '8:35822', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/jetson/ros2_ws/install/libfreenect/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/6785,unix/nano:/tmp/.ICE-unix/6785', 'INVOCATION_ID': 'd62ee9243cfe487f96b214f816dfdb2c', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1bd4c197_a745_473b_a05b_ad004877b3b6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.87', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jetson/ros2_ws/build/talker_listener', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/libfreenect'}, 'shell': False}
+[3.708029] (kinect_depth) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/kinect_depth', 'build', '--build-base', '/home/jetson/ros2_ws/build/kinect_depth/build', 'install', '--record', '/home/jetson/ros2_ws/build/kinect_depth/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ros2_ws/src/kinect_depth', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'LC_TIME': 'nl_NL.UTF-8', 'SSH_AGENT_PID': '6750', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/ros2_ws/install/kinect_ros2/lib:/home/jetson/ros2_ws/install/libfreenect/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'MANAGERPID': '6555', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JOURNAL_STREAM': '8:35822', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/jetson/ros2_ws/install/libfreenect/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/6785,unix/nano:/tmp/.ICE-unix/6785', 'INVOCATION_ID': 'd62ee9243cfe487f96b214f816dfdb2c', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1bd4c197_a745_473b_a05b_ad004877b3b6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.87', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jetson/ros2_ws/build/kinect_depth', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/kinect_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/libfreenect'}, 'shell': False}
+[3.718989] (-) TimerEvent: {}
+[3.819685] (-) TimerEvent: {}
+[3.873172] (libfreenect) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.881021] (libfreenect) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.919912] (-) TimerEvent: {}
+[4.020868] (-) TimerEvent: {}
+[4.099598] (libfreenect) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.103638] (libfreenect) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.121010] (-) TimerEvent: {}
+[4.122977] (libfreenect) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[4.138308] (libfreenect) StdoutLine: {'line': b'-- Found GLUT: /usr/lib/aarch64-linux-gnu/libglut.so  \n'}
+[4.177012] (libfreenect) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.221145] (-) TimerEvent: {}
+[4.288131] (libfreenect) StdoutLine: {'line': b'-- Generating done\n'}
+[4.315693] (libfreenect) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros2_ws/build/libfreenect\n'}
+[4.321289] (-) TimerEvent: {}
+[4.328714] (libfreenect) CommandEnded: {'returncode': 0}
+[4.330594] (libfreenect) JobProgress: {'identifier': 'libfreenect', 'progress': 'build'}
+[4.332973] (libfreenect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/libfreenect', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros2_ws/build/libfreenect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '6750'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros2_ws/install/kinect_ros2/lib:/home/jetson/ros2_ws/install/libfreenect/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '6555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '8:35822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/ros2_ws/install/libfreenect/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/6785,unix/nano:/tmp/.ICE-unix/6785'), ('INVOCATION_ID', 'd62ee9243cfe487f96b214f816dfdb2c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bd4c197_a745_473b_a05b_ad004877b3b6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros2_ws/build/libfreenect'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/libfreenect')]), 'shell': False}
+[4.421590] (-) TimerEvent: {}
+[4.464605] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect\x1b[0m\n'}
+[4.483550] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenectstatic\x1b[0m\n'}
+[4.499016] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fakenect\x1b[0m\n'}
+[4.521710] (-) TimerEvent: {}
+[4.530961] (libfreenect) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/core.c.o\x1b[0m\n'}
+[4.560911] (talker_listener) StdoutLine: {'line': b'running egg_info\n'}
+[4.561697] (kinect_depth) StdoutLine: {'line': b'running egg_info\n'}
+[4.563135] (talker_listener) StdoutLine: {'line': b'creating ../../build/talker_listener/talker_listener.egg-info\n'}
+[4.563774] (talker_listener) StdoutLine: {'line': b'writing ../../build/talker_listener/talker_listener.egg-info/PKG-INFO\n'}
+[4.564633] (talker_listener) StdoutLine: {'line': b'writing dependency_links to ../../build/talker_listener/talker_listener.egg-info/dependency_links.txt\n'}
+[4.565351] (talker_listener) StdoutLine: {'line': b'writing entry points to ../../build/talker_listener/talker_listener.egg-info/entry_points.txt\n'}
+[4.566299] (libfreenect) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/core.c.o\x1b[0m\n'}
+[4.566751] (talker_listener) StdoutLine: {'line': b'writing requirements to ../../build/talker_listener/talker_listener.egg-info/requires.txt\n'}
+[4.567126] (talker_listener) StdoutLine: {'line': b'writing top-level names to ../../build/talker_listener/talker_listener.egg-info/top_level.txt\n'}
+[4.569042] (kinect_depth) StdoutLine: {'line': b'creating ../../build/kinect_depth/kinect_depth.egg-info\n'}
+[4.570310] (kinect_depth) StdoutLine: {'line': b'writing ../../build/kinect_depth/kinect_depth.egg-info/PKG-INFO\n'}
+[4.571175] (kinect_depth) StdoutLine: {'line': b'writing dependency_links to ../../build/kinect_depth/kinect_depth.egg-info/dependency_links.txt\n'}
+[4.571768] (kinect_depth) StdoutLine: {'line': b'writing entry points to ../../build/kinect_depth/kinect_depth.egg-info/entry_points.txt\n'}
+[4.572360] (kinect_depth) StdoutLine: {'line': b'writing requirements to ../../build/kinect_depth/kinect_depth.egg-info/requires.txt\n'}
+[4.572759] (kinect_depth) StdoutLine: {'line': b'writing top-level names to ../../build/kinect_depth/kinect_depth.egg-info/top_level.txt\n'}
+[4.576412] (libfreenect) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object fakenect/CMakeFiles/fakenect.dir/fakenect.c.o\x1b[0m\n'}
+[4.581429] (talker_listener) StdoutLine: {'line': b"writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'\n"}
+[4.583119] (libfreenect) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/tilt.c.o\x1b[0m\n'}
+[4.583790] (kinect_depth) StdoutLine: {'line': b"writing manifest file '../../build/kinect_depth/kinect_depth.egg-info/SOURCES.txt'\n"}
+[4.621869] (-) TimerEvent: {}
+[4.722594] (-) TimerEvent: {}
+[4.724447] (talker_listener) StdoutLine: {'line': b"reading manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'\n"}
+[4.727547] (talker_listener) StdoutLine: {'line': b"writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'\n"}
+[4.735942] (talker_listener) StdoutLine: {'line': b'running build\n'}
+[4.736494] (talker_listener) StdoutLine: {'line': b'running build_py\n'}
+[4.737174] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/build/talker_listener/build\n'}
+[4.737589] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/build/talker_listener/build/lib\n'}
+[4.737969] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/build/talker_listener/build/lib/talker_listener\n'}
+[4.738507] (talker_listener) StdoutLine: {'line': b'copying talker_listener/__init__.py -> /home/jetson/ros2_ws/build/talker_listener/build/lib/talker_listener\n'}
+[4.738975] (talker_listener) StdoutLine: {'line': b'copying talker_listener/listener.py -> /home/jetson/ros2_ws/build/talker_listener/build/lib/talker_listener\n'}
+[4.739480] (talker_listener) StdoutLine: {'line': b'copying talker_listener/talker.py -> /home/jetson/ros2_ws/build/talker_listener/build/lib/talker_listener\n'}
+[4.739991] (talker_listener) StdoutLine: {'line': b'running install\n'}
+[4.742849] (talker_listener) StdoutLine: {'line': b'running install_lib\n'}
+[4.746301] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages/talker_listener\n'}
+[4.747061] (talker_listener) StdoutLine: {'line': b'copying /home/jetson/ros2_ws/build/talker_listener/build/lib/talker_listener/__init__.py -> /home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages/talker_listener\n'}
+[4.747533] (talker_listener) StdoutLine: {'line': b'copying /home/jetson/ros2_ws/build/talker_listener/build/lib/talker_listener/listener.py -> /home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages/talker_listener\n'}
+[4.748015] (talker_listener) StdoutLine: {'line': b'copying /home/jetson/ros2_ws/build/talker_listener/build/lib/talker_listener/talker.py -> /home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages/talker_listener\n'}
+[4.759736] (talker_listener) StdoutLine: {'line': b'byte-compiling /home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages/talker_listener/__init__.py to __init__.cpython-38.pyc\n'}
+[4.767564] (talker_listener) StdoutLine: {'line': b'byte-compiling /home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages/talker_listener/listener.py to listener.cpython-38.pyc\n'}
+[4.768879] (talker_listener) StdoutLine: {'line': b'byte-compiling /home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages/talker_listener/talker.py to talker.cpython-38.pyc\n'}
+[4.770186] (talker_listener) StdoutLine: {'line': b'running install_data\n'}
+[4.770788] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/install/talker_listener/share/ament_index\n'}
+[4.771388] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/install/talker_listener/share/ament_index/resource_index\n'}
+[4.771814] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/install/talker_listener/share/ament_index/resource_index/packages\n'}
+[4.772196] (talker_listener) StdoutLine: {'line': b'copying resource/talker_listener -> /home/jetson/ros2_ws/install/talker_listener/share/ament_index/resource_index/packages\n'}
+[4.772783] (talker_listener) StdoutLine: {'line': b'copying package.xml -> /home/jetson/ros2_ws/install/talker_listener/share/talker_listener\n'}
+[4.773209] (talker_listener) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.778131] (talker_listener) StdoutLine: {'line': b'Copying ../../build/talker_listener/talker_listener.egg-info to /home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages/talker_listener-0.0.0-py3.8.egg-info\n'}
+[4.782772] (talker_listener) StdoutLine: {'line': b'running install_scripts\n'}
+[4.784944] (kinect_depth) StdoutLine: {'line': b"reading manifest file '../../build/kinect_depth/kinect_depth.egg-info/SOURCES.txt'\n"}
+[4.787802] (kinect_depth) StdoutLine: {'line': b"writing manifest file '../../build/kinect_depth/kinect_depth.egg-info/SOURCES.txt'\n"}
+[4.788530] (kinect_depth) StdoutLine: {'line': b'running build\n'}
+[4.789092] (kinect_depth) StdoutLine: {'line': b'running build_py\n'}
+[4.789787] (kinect_depth) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/build/kinect_depth/build\n'}
+[4.790237] (kinect_depth) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/build/kinect_depth/build/lib\n'}
+[4.790647] (kinect_depth) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/build/kinect_depth/build/lib/kinect_depth\n'}
+[4.791029] (kinect_depth) StdoutLine: {'line': b'copying kinect_depth/__init__.py -> /home/jetson/ros2_ws/build/kinect_depth/build/lib/kinect_depth\n'}
+[4.791400] (kinect_depth) StdoutLine: {'line': b'copying kinect_depth/depth_publisher.py -> /home/jetson/ros2_ws/build/kinect_depth/build/lib/kinect_depth\n'}
+[4.799307] (kinect_depth) StdoutLine: {'line': b'running install\n'}
+[4.802494] (kinect_depth) StdoutLine: {'line': b'running install_lib\n'}
+[4.806101] (kinect_depth) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth\n'}
+[4.806861] (kinect_depth) StdoutLine: {'line': b'copying /home/jetson/ros2_ws/build/kinect_depth/build/lib/kinect_depth/__init__.py -> /home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth\n'}
+[4.807304] (kinect_depth) StdoutLine: {'line': b'copying /home/jetson/ros2_ws/build/kinect_depth/build/lib/kinect_depth/depth_publisher.py -> /home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth\n'}
+[4.808857] (kinect_depth) StdoutLine: {'line': b'byte-compiling /home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth/__init__.py to __init__.cpython-38.pyc\n'}
+[4.819766] (kinect_depth) StdoutLine: {'line': b'byte-compiling /home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth/depth_publisher.py to depth_publisher.cpython-38.pyc\n'}
+[4.821330] (kinect_depth) StdoutLine: {'line': b'running install_data\n'}
+[4.822073] (kinect_depth) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/install/kinect_depth/share/ament_index\n'}
+[4.822496] (kinect_depth) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/install/kinect_depth/share/ament_index/resource_index\n'}
+[4.823066] (-) TimerEvent: {}
+[4.823579] (kinect_depth) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/install/kinect_depth/share/ament_index/resource_index/packages\n'}
+[4.824007] (kinect_depth) StdoutLine: {'line': b'copying resource/kinect_depth -> /home/jetson/ros2_ws/install/kinect_depth/share/ament_index/resource_index/packages\n'}
+[4.824369] (kinect_depth) StdoutLine: {'line': b'copying package.xml -> /home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth\n'}
+[4.824763] (kinect_depth) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.836412] (kinect_depth) StdoutLine: {'line': b'Copying ../../build/kinect_depth/kinect_depth.egg-info to /home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth-0.0.0-py3.8.egg-info\n'}
+[4.840440] (kinect_depth) StdoutLine: {'line': b'running install_scripts\n'}
+[4.867494] (talker_listener) StdoutLine: {'line': b'Installing listener script to /home/jetson/ros2_ws/install/talker_listener/lib/talker_listener\n'}
+[4.868242] (talker_listener) StdoutLine: {'line': b'Installing talker script to /home/jetson/ros2_ws/install/talker_listener/lib/talker_listener\n'}
+[4.869573] (talker_listener) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/talker_listener/install.log'\n"}
+[4.923258] (-) TimerEvent: {}
+[4.976929] (talker_listener) CommandEnded: {'returncode': 0}
+[4.979237] (kinect_depth) StdoutLine: {'line': b'Installing depth_publisher script to /home/jetson/ros2_ws/install/kinect_depth/lib/kinect_depth\n'}
+[4.982023] (kinect_depth) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/kinect_depth/install.log'\n"}
+[5.024994] (-) TimerEvent: {}
+[5.091248] (talker_listener) JobEnded: {'identifier': 'talker_listener', 'rc': 0}
+[5.095698] (kinect_depth) CommandEnded: {'returncode': 0}
+[5.115561] (libfreenect) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/tilt.c.o\x1b[0m\n'}
+[5.125682] (-) TimerEvent: {}
+[5.139152] (kinect_depth) JobEnded: {'identifier': 'kinect_depth', 'rc': 0}
+[5.187465] (libfreenect) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/cameras.c.o\x1b[0m\n'}
+[5.225859] (-) TimerEvent: {}
+[5.228934] (libfreenect) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/flags.c.o\x1b[0m\n'}
+[5.326034] (-) TimerEvent: {}
+[5.330872] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/libfreenect/src/cameras.c:74:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinvalid_mode\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-const-variable=\x1b[m\x1b[K]\n'}
+[5.331517] (libfreenect) StderrLine: {'line': b'   74 | static const freenect_frame_mode \x1b[01;35m\x1b[Kinvalid_mode\x1b[m\x1b[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};\n'}
+[5.331941] (libfreenect) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.426208] (-) TimerEvent: {}
+[5.509138] (libfreenect) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/cameras.c.o\x1b[0m\n'}
+[5.526402] (-) TimerEvent: {}
+[5.586846] (libfreenect) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object fakenect/CMakeFiles/fakenect.dir/parson.c.o\x1b[0m\n'}
+[5.616713] (libfreenect) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.o\x1b[0m\n'}
+[5.626561] (-) TimerEvent: {}
+[5.654534] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/libfreenect/src/cameras.c:74:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinvalid_mode\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-const-variable=\x1b[m\x1b[K]\n'}
+[5.655159] (libfreenect) StderrLine: {'line': b'   74 | static const freenect_frame_mode \x1b[01;35m\x1b[Kinvalid_mode\x1b[m\x1b[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};\n'}
+[5.655601] (libfreenect) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.726741] (-) TimerEvent: {}
+[5.827614] (-) TimerEvent: {}
+[5.928469] (-) TimerEvent: {}
+[6.029354] (-) TimerEvent: {}
+[6.130013] (-) TimerEvent: {}
+[6.230866] (-) TimerEvent: {}
+[6.296464] (libfreenect) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/registration.c.o\x1b[0m\n'}
+[6.331042] (-) TimerEvent: {}
+[6.431655] (-) TimerEvent: {}
+[6.466198] (libfreenect) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/audio.c.o\x1b[0m\n'}
+[6.531834] (-) TimerEvent: {}
+[6.619192] (libfreenect) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/flags.c.o\x1b[0m\n'}
+[6.632017] (-) TimerEvent: {}
+[6.732861] (-) TimerEvent: {}
+[6.771808] (libfreenect) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/CMakeFiles/freenectstatic.dir/loader.c.o\x1b[0m\n'}
+[6.833020] (-) TimerEvent: {}
+[6.838673] (libfreenect) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/usb_libusb10.c.o\x1b[0m\n'}
+[6.875886] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/libfreenect/src/loader.c:82:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcheck_version_string\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[6.876496] (libfreenect) StderrLine: {'line': b'   82 | static int \x1b[01;35m\x1b[Kcheck_version_string\x1b[m\x1b[K(fnusb_dev* dev) {\n'}
+[6.876995] (libfreenect) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.933189] (-) TimerEvent: {}
+[6.990460] (libfreenect) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/registration.c.o\x1b[0m\n'}
+[7.033350] (-) TimerEvent: {}
+[7.134001] (-) TimerEvent: {}
+[7.234626] (-) TimerEvent: {}
+[7.239311] (libfreenect) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking C static library ../lib/libfreenect.a\x1b[0m\n'}
+[7.334851] (-) TimerEvent: {}
+[7.382678] (libfreenect) StdoutLine: {'line': b'[ 32%] Built target freenectstatic\n'}
+[7.412238] (libfreenect) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/audio.c.o\x1b[0m\n'}
+[7.435034] (-) TimerEvent: {}
+[7.535919] (-) TimerEvent: {}
+[7.552663] (libfreenect) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/CMakeFiles/freenect.dir/loader.c.o\x1b[0m\n'}
+[7.636099] (-) TimerEvent: {}
+[7.660714] (libfreenect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/libfreenect/src/loader.c:82:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcheck_version_string\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[7.661356] (libfreenect) StderrLine: {'line': b'   82 | static int \x1b[01;35m\x1b[Kcheck_version_string\x1b[m\x1b[K(fnusb_dev* dev) {\n'}
+[7.661738] (libfreenect) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.701979] (libfreenect) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object fakenect/CMakeFiles/fakenect.dir/__/src/registration.c.o\x1b[0m\n'}
+[7.736317] (-) TimerEvent: {}
+[7.836989] (-) TimerEvent: {}
+[7.937539] (-) TimerEvent: {}
+[7.988904] (libfreenect) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking C shared library ../lib/libfreenect.so\x1b[0m\n'}
+[8.037706] (-) TimerEvent: {}
+[8.138351] (-) TimerEvent: {}
+[8.150533] (libfreenect) StdoutLine: {'line': b'[ 39%] Built target freenect\n'}
+[8.181925] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-camtest\x1b[0m\n'}
+[8.182738] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-wavrecord\x1b[0m\n'}
+[8.183044] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect_sync\x1b[0m\n'}
+[8.185406] (libfreenect) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library ../lib/fakenect/libfakenect.so\x1b[0m\n'}
+[8.226564] (libfreenect) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-camtest.dir/camtest.c.o\x1b[0m\n'}
+[8.237961] (libfreenect) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync.dir/libfreenect_sync.c.o\x1b[0m\n'}
+[8.238493] (-) TimerEvent: {}
+[8.239006] (libfreenect) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-wavrecord.dir/wavrecord.c.o\x1b[0m\n'}
+[8.338687] (-) TimerEvent: {}
+[8.400530] (libfreenect) StdoutLine: {'line': b'[ 47%] Built target fakenect\n'}
+[8.437526] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-glview\x1b[0m\n'}
+[8.438809] (-) TimerEvent: {}
+[8.464025] (libfreenect) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-wavrecord\x1b[0m\n'}
+[8.490113] (libfreenect) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-camtest\x1b[0m\n'}
+[8.493653] (libfreenect) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-glview.dir/glview.c.o\x1b[0m\n'}
+[8.538986] (-) TimerEvent: {}
+[8.611355] (libfreenect) StdoutLine: {'line': b'[ 52%] Built target freenect-wavrecord\n'}
+[8.620602] (libfreenect) StdoutLine: {'line': b'[ 52%] Built target freenect-camtest\n'}
+[8.639163] (-) TimerEvent: {}
+[8.646515] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-regview\x1b[0m\n'}
+[8.654426] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-chunkview\x1b[0m\n'}
+[8.704824] (libfreenect) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-chunkview.dir/chunkview.c.o\x1b[0m\n'}
+[8.712516] (libfreenect) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-regview.dir/regview.c.o\x1b[0m\n'}
+[8.739402] (-) TimerEvent: {}
+[8.776228] (libfreenect) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library ../../lib/libfreenect_sync.so\x1b[0m\n'}
+[8.839592] (-) TimerEvent: {}
+[8.940294] (-) TimerEvent: {}
+[8.954507] (libfreenect) StdoutLine: {'line': b'[ 58%] Built target freenect_sync\n'}
+[8.993793] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-micview\x1b[0m\n'}
+[9.040466] (-) TimerEvent: {}
+[9.052012] (libfreenect) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-micview.dir/micview.c.o\x1b[0m\n'}
+[9.140641] (-) TimerEvent: {}
+[9.241522] (-) TimerEvent: {}
+[9.242354] (libfreenect) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-glview\x1b[0m\n'}
+[9.280093] (libfreenect) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-chunkview\x1b[0m\n'}
+[9.327460] (libfreenect) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-regview\x1b[0m\n'}
+[9.341718] (-) TimerEvent: {}
+[9.442392] (-) TimerEvent: {}
+[9.446144] (libfreenect) StdoutLine: {'line': b'[ 66%] Built target freenect-glview\n'}
+[9.485329] (libfreenect) StdoutLine: {'line': b'[ 66%] Built target freenect-chunkview\n'}
+[9.486791] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-hiview\x1b[0m\n'}
+[9.525719] (libfreenect) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-hiview.dir/hiview.c.o\x1b[0m\n'}
+[9.528388] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fakenect-record\x1b[0m\n'}
+[9.533302] (libfreenect) StdoutLine: {'line': b'[ 67%] Built target freenect-regview\n'}
+[9.536088] (libfreenect) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-micview\x1b[0m\n'}
+[9.542551] (-) TimerEvent: {}
+[9.566620] (libfreenect) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/record.c.o\x1b[0m\n'}
+[9.567392] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect_sync_static\x1b[0m\n'}
+[9.611330] (libfreenect) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o\x1b[0m\n'}
+[9.642730] (-) TimerEvent: {}
+[9.720852] (libfreenect) StdoutLine: {'line': b'[ 73%] Built target freenect-micview\n'}
+[9.742906] (-) TimerEvent: {}
+[9.770410] (libfreenect) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/parson.c.o\x1b[0m\n'}
+[9.843094] (-) TimerEvent: {}
+[9.943973] (-) TimerEvent: {}
+[10.044858] (-) TimerEvent: {}
+[10.139811] (libfreenect) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C static library ../../lib/libfreenect_sync.a\x1b[0m\n'}
+[10.145027] (-) TimerEvent: {}
+[10.208465] (libfreenect) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-hiview\x1b[0m\n'}
+[10.236382] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-cpp_pcview\x1b[0m\n'}
+[10.245191] (-) TimerEvent: {}
+[10.247489] (libfreenect) StdoutLine: {'line': b'[ 79%] Built target freenect_sync_static\n'}
+[10.290774] (libfreenect) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object wrappers/cpp/CMakeFiles/freenect-cpp_pcview.dir/cpp_pc_view.cpp.o\x1b[0m\n'}
+[10.309749] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-cppview\x1b[0m\n'}
+[10.345354] (-) TimerEvent: {}
+[10.371443] (libfreenect) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object wrappers/cpp/CMakeFiles/freenect-cppview.dir/cppview.cpp.o\x1b[0m\n'}
+[10.396183] (libfreenect) StdoutLine: {'line': b'[ 83%] Built target freenect-hiview\n'}
+[10.435901] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-glpclview\x1b[0m\n'}
+[10.445510] (-) TimerEvent: {}
+[10.480856] (libfreenect) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-glpclview.dir/glpclview.c.o\x1b[0m\n'}
+[10.545673] (-) TimerEvent: {}
+[10.646514] (-) TimerEvent: {}
+[10.747387] (-) TimerEvent: {}
+[10.848347] (-) TimerEvent: {}
+[10.911276] (libfreenect) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-glpclview\x1b[0m\n'}
+[10.948509] (-) TimerEvent: {}
+[11.049191] (-) TimerEvent: {}
+[11.107309] (libfreenect) StdoutLine: {'line': b'[ 86%] Built target freenect-glpclview\n'}
+[11.140890] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-regtest\x1b[0m\n'}
+[11.149359] (-) TimerEvent: {}
+[11.201641] (libfreenect) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-regtest.dir/regtest.c.o\x1b[0m\n'}
+[11.249528] (-) TimerEvent: {}
+[11.350199] (-) TimerEvent: {}
+[11.450873] (-) TimerEvent: {}
+[11.460045] (libfreenect) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-regtest\x1b[0m\n'}
+[11.551035] (-) TimerEvent: {}
+[11.594326] (libfreenect) StdoutLine: {'line': b'[ 90%] Built target freenect-regtest\n'}
+[11.628333] (libfreenect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target freenect-tiltdemo\x1b[0m\n'}
+[11.651213] (-) TimerEvent: {}
+[11.688763] (libfreenect) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object examples/CMakeFiles/freenect-tiltdemo.dir/tiltdemo.c.o\x1b[0m\n'}
+[11.766551] (-) TimerEvent: {}
+[11.867237] (-) TimerEvent: {}
+[11.932967] (libfreenect) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C executable ../bin/freenect-tiltdemo\x1b[0m\n'}
+[11.967403] (-) TimerEvent: {}
+[12.060381] (libfreenect) StdoutLine: {'line': b'[ 94%] Built target freenect-tiltdemo\n'}
+[12.067572] (-) TimerEvent: {}
+[12.168476] (-) TimerEvent: {}
+[12.227858] (libfreenect) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C executable ../bin/fakenect-record\x1b[0m\n'}
+[12.268709] (-) TimerEvent: {}
+[12.350030] (libfreenect) StdoutLine: {'line': b'[ 96%] Built target fakenect-record\n'}
+[12.368932] (-) TimerEvent: {}
+[12.469564] (-) TimerEvent: {}
+[12.570207] (-) TimerEvent: {}
+[12.670851] (-) TimerEvent: {}
+[12.771503] (-) TimerEvent: {}
+[12.872153] (-) TimerEvent: {}
+[12.972821] (-) TimerEvent: {}
+[13.073434] (-) TimerEvent: {}
+[13.174011] (-) TimerEvent: {}
+[13.274645] (-) TimerEvent: {}
+[13.375267] (-) TimerEvent: {}
+[13.390900] (libfreenect) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/freenect-cpp_pcview\x1b[0m\n'}
+[13.475546] (-) TimerEvent: {}
+[13.576278] (-) TimerEvent: {}
+[13.587819] (libfreenect) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/freenect-cppview\x1b[0m\n'}
+[13.664840] (libfreenect) StdoutLine: {'line': b'[100%] Built target freenect-cpp_pcview\n'}
+[13.676563] (-) TimerEvent: {}
+[13.777290] (-) TimerEvent: {}
+[13.850744] (libfreenect) StdoutLine: {'line': b'[100%] Built target freenect-cppview\n'}
+[13.877452] (-) TimerEvent: {}
+[13.884280] (libfreenect) CommandEnded: {'returncode': 0}
+[13.886393] (libfreenect) JobProgress: {'identifier': 'libfreenect', 'progress': 'install'}
+[13.922320] (libfreenect) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/libfreenect'], 'cwd': '/home/jetson/ros2_ws/build/libfreenect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '6750'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros2_ws/install/kinect_ros2/lib:/home/jetson/ros2_ws/install/libfreenect/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '6555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '8:35822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/ros2_ws/install/libfreenect/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/6785,unix/nano:/tmp/.ICE-unix/6785'), ('INVOCATION_ID', 'd62ee9243cfe487f96b214f816dfdb2c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bd4c197_a745_473b_a05b_ad004877b3b6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros2_ws/build/libfreenect'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/libfreenect')]), 'shell': False}
+[13.946988] (libfreenect) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.947576] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/share/libfreenect/libfreenectConfig.cmake\n'}
+[13.948322] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/share/fwfetcher.py\n'}
+[13.950945] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so.0.7.5\n'}
+[13.951482] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so.0\n'}
+[13.951922] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so\n'}
+[13.952335] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.a\n'}
+[13.953122] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.h\n'}
+[13.953534] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_registration.h\n'}
+[13.953928] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_audio.h\n'}
+[13.954310] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig/libfreenect.pc\n'}
+[13.955563] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-camtest\n'}
+[13.956592] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-camtest" to ""\n'}
+[13.957188] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-wavrecord\n'}
+[13.957997] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-wavrecord" to ""\n'}
+[13.958333] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-glview\n'}
+[13.959201] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-glview" to ""\n'}
+[13.959500] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-regview\n'}
+[13.960414] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-regview" to ""\n'}
+[13.960710] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-hiview\n'}
+[13.961713] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-hiview" to ""\n'}
+[13.962019] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-chunkview\n'}
+[13.962947] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-chunkview" to ""\n'}
+[13.963241] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-micview\n'}
+[13.964114] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-micview" to ""\n'}
+[13.964455] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-regtest\n'}
+[13.965624] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-regtest" to ""\n'}
+[13.966009] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-tiltdemo\n'}
+[13.966739] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-tiltdemo" to ""\n'}
+[13.967052] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-glpclview\n'}
+[13.967953] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-glpclview" to ""\n'}
+[13.968975] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0.7.5\n'}
+[13.969497] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0\n'}
+[13.969972] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so\n'}
+[13.970322] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/fakenect-record\n'}
+[13.971403] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/fakenect-record" to ""\n'}
+[13.971732] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/fakenect\n'}
+[13.972094] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/share/man/man1/fakenect.1\n'}
+[13.974499] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/share/man/man1/fakenect-record.1\n'}
+[13.975903] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5\n'}
+[13.976447] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0\n'}
+[13.977286] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5" to ""\n'}
+[13.977608] (-) TimerEvent: {}
+[13.978012] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so\n'}
+[13.978416] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.a\n'}
+[13.978700] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_sync.h\n'}
+[13.979140] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.hpp\n'}
+[13.979648] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-cppview\n'}
+[13.980780] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-cppview" to ""\n'}
+[13.981239] (libfreenect) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-cpp_pcview\n'}
+[13.982191] (libfreenect) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-cpp_pcview" to ""\n'}
+[13.986702] (libfreenect) CommandEnded: {'returncode': 0}
+[14.026963] (libfreenect) JobEnded: {'identifier': 'libfreenect', 'rc': 0}
+[14.029942] (kinect_ros2) JobStarted: {'identifier': 'kinect_ros2'}
+[14.062232] (kinect_ros2) JobProgress: {'identifier': 'kinect_ros2', 'progress': 'cmake'}
+[14.063596] (kinect_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros2_ws/src/kinect_ros2', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/kinect_ros2'], 'cwd': '/home/jetson/ros2_ws/build/kinect_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '6750'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros2_ws/install/libfreenect/lib:/home/jetson/ros2_ws/install/kinect_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '6555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '8:35822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/ros2_ws/install/libfreenect/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/6785,unix/nano:/tmp/.ICE-unix/6785'), ('INVOCATION_ID', 'd62ee9243cfe487f96b214f816dfdb2c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bd4c197_a745_473b_a05b_ad004877b3b6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros2_ws/build/kinect_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/libfreenect:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy')]), 'shell': False}
+[14.077803] (-) TimerEvent: {}
+[14.178578] (-) TimerEvent: {}
+[14.238639] (kinect_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[14.278730] (-) TimerEvent: {}
+[14.379389] (-) TimerEvent: {}
+[14.396242] (kinect_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[14.410410] (kinect_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[14.479601] (-) TimerEvent: {}
+[14.580244] (-) TimerEvent: {}
+[14.605996] (kinect_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[14.608413] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.680505] (-) TimerEvent: {}
+[14.781163] (-) TimerEvent: {}
+[14.804417] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.841230] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.842208] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.849503] (kinect_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[14.881310] (-) TimerEvent: {}
+[14.982047] (-) TimerEvent: {}
+[15.074543] (kinect_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[15.077951] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[15.082162] (-) TimerEvent: {}
+[15.182660] (-) TimerEvent: {}
+[15.283252] (-) TimerEvent: {}
+[15.304909] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[15.342483] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[15.344016] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[15.373690] (kinect_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[15.383407] (-) TimerEvent: {}
+[15.474575] (kinect_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[15.475256] (kinect_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[15.483536] (-) TimerEvent: {}
+[15.584125] (-) TimerEvent: {}
+[15.684638] (-) TimerEvent: {}
+[15.785229] (-) TimerEvent: {}
+[15.885726] (-) TimerEvent: {}
+[15.986228] (-) TimerEvent: {}
+[16.086824] (-) TimerEvent: {}
+[16.187440] (-) TimerEvent: {}
+[16.287981] (-) TimerEvent: {}
+[16.288565] (kinect_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[16.388175] (-) TimerEvent: {}
+[16.488847] (-) TimerEvent: {}
+[16.585325] (kinect_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[16.588994] (-) TimerEvent: {}
+[16.642307] (kinect_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[16.689213] (-) TimerEvent: {}
+[16.789793] (-) TimerEvent: {}
+[16.890395] (-) TimerEvent: {}
+[16.990997] (-) TimerEvent: {}
+[17.011137] (kinect_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[17.091287] (-) TimerEvent: {}
+[17.109601] (kinect_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[17.191460] (-) TimerEvent: {}
+[17.292065] (-) TimerEvent: {}
+[17.392652] (-) TimerEvent: {}
+[17.420248] (kinect_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.492855] (-) TimerEvent: {}
+[17.593373] (-) TimerEvent: {}
+[17.693951] (-) TimerEvent: {}
+[17.794539] (-) TimerEvent: {}
+[17.895118] (-) TimerEvent: {}
+[17.934418] (kinect_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[17.941392] (kinect_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.945017] (kinect_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[17.995324] (-) TimerEvent: {}
+[18.095990] (-) TimerEvent: {}
+[18.153850] (kinect_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[18.154516] (kinect_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.196203] (-) TimerEvent: {}
+[18.296864] (-) TimerEvent: {}
+[18.368697] (kinect_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[18.369427] (kinect_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[18.397008] (-) TimerEvent: {}
+[18.497572] (-) TimerEvent: {}
+[18.581349] (kinect_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[18.582285] (kinect_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[18.597711] (-) TimerEvent: {}
+[18.698275] (-) TimerEvent: {}
+[18.788343] (kinect_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[18.791248] (kinect_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[18.798405] (-) TimerEvent: {}
+[18.898914] (-) TimerEvent: {}
+[18.999512] (-) TimerEvent: {}
+[19.100828] (-) TimerEvent: {}
+[19.201392] (-) TimerEvent: {}
+[19.301984] (-) TimerEvent: {}
+[19.402571] (-) TimerEvent: {}
+[19.503150] (-) TimerEvent: {}
+[19.512124] (kinect_ros2) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[19.524560] (kinect_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[19.603331] (-) TimerEvent: {}
+[19.703902] (-) TimerEvent: {}
+[19.804478] (-) TimerEvent: {}
+[19.905120] (-) TimerEvent: {}
+[19.961933] (kinect_ros2) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[20.005295] (-) TimerEvent: {}
+[20.025807] (kinect_ros2) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[20.105464] (-) TimerEvent: {}
+[20.206039] (-) TimerEvent: {}
+[20.207443] (kinect_ros2) StdoutLine: {'line': b'-- Found depth_image_proc: 2.3.0 (/opt/ros/foxy/share/depth_image_proc/cmake)\n'}
+[20.306228] (-) TimerEvent: {}
+[20.406806] (-) TimerEvent: {}
+[20.507372] (-) TimerEvent: {}
+[20.607939] (-) TimerEvent: {}
+[20.708515] (-) TimerEvent: {}
+[20.809148] (-) TimerEvent: {}
+[20.909719] (-) TimerEvent: {}
+[21.010304] (-) TimerEvent: {}
+[21.110829] (-) TimerEvent: {}
+[21.211402] (-) TimerEvent: {}
+[21.311956] (-) TimerEvent: {}
+[21.412829] (-) TimerEvent: {}
+[21.513408] (-) TimerEvent: {}
+[21.614013] (-) TimerEvent: {}
+[21.714605] (-) TimerEvent: {}
+[21.815132] (-) TimerEvent: {}
+[21.915701] (-) TimerEvent: {}
+[22.016233] (-) TimerEvent: {}
+[22.117009] (-) TimerEvent: {}
+[22.130667] (kinect_ros2) StdoutLine: {'line': b'-- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)\n'}
+[22.214210] (kinect_ros2) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[22.217036] (-) TimerEvent: {}
+[22.317550] (-) TimerEvent: {}
+[22.418125] (-) TimerEvent: {}
+[22.518657] (-) TimerEvent: {}
+[22.619258] (-) TimerEvent: {}
+[22.719876] (-) TimerEvent: {}
+[22.799833] (kinect_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.820087] (-) TimerEvent: {}
+[22.920695] (-) TimerEvent: {}
+[22.941968] (kinect_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[22.991782] (kinect_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros2_ws/build/kinect_ros2\n'}
+[23.021015] (-) TimerEvent: {}
+[23.022322] (kinect_ros2) CommandEnded: {'returncode': 0}
+[23.024145] (kinect_ros2) JobProgress: {'identifier': 'kinect_ros2', 'progress': 'build'}
+[23.025075] (kinect_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/kinect_ros2', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros2_ws/build/kinect_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '6750'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros2_ws/install/libfreenect/lib:/home/jetson/ros2_ws/install/kinect_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '6555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '8:35822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/ros2_ws/install/libfreenect/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/6785,unix/nano:/tmp/.ICE-unix/6785'), ('INVOCATION_ID', 'd62ee9243cfe487f96b214f816dfdb2c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bd4c197_a745_473b_a05b_ad004877b3b6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros2_ws/build/kinect_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/libfreenect:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy')]), 'shell': False}
+[23.121265] (-) TimerEvent: {}
+[23.154172] (kinect_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target kinect_ros2_component\x1b[0m\n'}
+[23.221481] (-) TimerEvent: {}
+[23.322192] (-) TimerEvent: {}
+[23.423227] (-) TimerEvent: {}
+[23.525354] (-) TimerEvent: {}
+[23.638417] (-) TimerEvent: {}
+[23.739716] (-) TimerEvent: {}
+[23.840807] (-) TimerEvent: {}
+[23.909388] (kinect_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/kinect_ros2_component.dir/src/kinect_ros2_component.cpp.o\x1b[0m\n'}
+[23.940997] (-) TimerEvent: {}
+[24.041584] (-) TimerEvent: {}
+[24.142141] (-) TimerEvent: {}
+[24.242878] (-) TimerEvent: {}
+[24.343506] (-) TimerEvent: {}
+[24.444143] (-) TimerEvent: {}
+[24.544792] (-) TimerEvent: {}
+[24.645436] (-) TimerEvent: {}
+[24.746032] (-) TimerEvent: {}
+[24.846622] (-) TimerEvent: {}
+[24.947224] (-) TimerEvent: {}
+[25.047820] (-) TimerEvent: {}
+[25.148410] (-) TimerEvent: {}
+[25.249033] (-) TimerEvent: {}
+[25.349662] (-) TimerEvent: {}
+[25.450317] (-) TimerEvent: {}
+[25.550963] (-) TimerEvent: {}
+[25.651572] (-) TimerEvent: {}
+[25.752220] (-) TimerEvent: {}
+[25.852865] (-) TimerEvent: {}
+[25.953511] (-) TimerEvent: {}
+[26.054164] (-) TimerEvent: {}
+[26.154808] (-) TimerEvent: {}
+[26.255425] (-) TimerEvent: {}
+[26.356042] (-) TimerEvent: {}
+[26.456636] (-) TimerEvent: {}
+[26.557344] (-) TimerEvent: {}
+[26.657996] (-) TimerEvent: {}
+[26.758660] (-) TimerEvent: {}
+[26.859318] (-) TimerEvent: {}
+[26.959979] (-) TimerEvent: {}
+[27.060636] (-) TimerEvent: {}
+[27.161350] (-) TimerEvent: {}
+[27.261966] (-) TimerEvent: {}
+[27.362589] (-) TimerEvent: {}
+[27.463201] (-) TimerEvent: {}
+[27.563821] (-) TimerEvent: {}
+[27.664425] (-) TimerEvent: {}
+[27.765031] (-) TimerEvent: {}
+[27.865675] (-) TimerEvent: {}
+[27.966316] (-) TimerEvent: {}
+[28.066958] (-) TimerEvent: {}
+[28.167619] (-) TimerEvent: {}
+[28.268242] (-) TimerEvent: {}
+[28.368880] (-) TimerEvent: {}
+[28.469517] (-) TimerEvent: {}
+[28.570186] (-) TimerEvent: {}
+[28.670864] (-) TimerEvent: {}
+[28.771498] (-) TimerEvent: {}
+[28.872122] (-) TimerEvent: {}
+[28.972872] (-) TimerEvent: {}
+[29.073483] (-) TimerEvent: {}
+[29.174091] (-) TimerEvent: {}
+[29.274710] (-) TimerEvent: {}
+[29.375336] (-) TimerEvent: {}
+[29.475966] (-) TimerEvent: {}
+[29.576601] (-) TimerEvent: {}
+[29.677307] (-) TimerEvent: {}
+[29.777919] (-) TimerEvent: {}
+[29.878535] (-) TimerEvent: {}
+[29.979162] (-) TimerEvent: {}
+[30.079779] (-) TimerEvent: {}
+[30.180328] (-) TimerEvent: {}
+[30.281014] (-) TimerEvent: {}
+[30.381606] (-) TimerEvent: {}
+[30.482169] (-) TimerEvent: {}
+[30.582730] (-) TimerEvent: {}
+[30.683322] (-) TimerEvent: {}
+[30.783982] (-) TimerEvent: {}
+[30.884637] (-) TimerEvent: {}
+[30.960009] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void kinect_ros2::KinectRosComponent::depth_cb(freenect_device*, void*, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.960891] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:109:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[30.961265] (kinect_ros2) StderrLine: {'line': b'  109 | void KinectRosComponent::depth_cb(\x1b[01;35m\x1b[Kfreenect_device * dev\x1b[m\x1b[K, void * depth_ptr, uint32_t timestamp)\n'}
+[30.961547] (kinect_ros2) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[30.961838] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:109:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimestamp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[30.962128] (kinect_ros2) StderrLine: {'line': b'  109 | mponent::depth_cb(freenect_device * dev, void * depth_ptr, \x1b[01;35m\x1b[Kuint32_t timestamp\x1b[m\x1b[K)\n'}
+[30.962393] (kinect_ros2) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[30.962660] (kinect_ros2) StderrLine: {'line': b'\n'}
+[30.962918] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void kinect_ros2::KinectRosComponent::rgb_cb(freenect_device*, void*, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.963221] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:123:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdev\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[30.963499] (kinect_ros2) StderrLine: {'line': b'  123 | void KinectRosComponent::rgb_cb(\x1b[01;35m\x1b[Kfreenect_device * dev\x1b[m\x1b[K, void * rgb_ptr, uint32_t timestamp)\n'}
+[30.963798] (kinect_ros2) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[30.964091] (kinect_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/kinect_ros2/src/kinect_ros2_component.cpp:123:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimestamp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[30.964360] (kinect_ros2) StderrLine: {'line': b'  123 | osComponent::rgb_cb(freenect_device * dev, void * rgb_ptr, \x1b[01;35m\x1b[Kuint32_t timestamp\x1b[m\x1b[K)\n'}
+[30.964609] (kinect_ros2) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[30.964899] (kinect_ros2) StderrLine: {'line': b'\n'}
+[30.984862] (-) TimerEvent: {}
+[31.085514] (-) TimerEvent: {}
+[31.186164] (-) TimerEvent: {}
+[31.286788] (-) TimerEvent: {}
+[31.387417] (-) TimerEvent: {}
+[31.487987] (-) TimerEvent: {}
+[31.588605] (-) TimerEvent: {}
+[31.689289] (-) TimerEvent: {}
+[31.789900] (-) TimerEvent: {}
+[31.890522] (-) TimerEvent: {}
+[31.991159] (-) TimerEvent: {}
+[32.091820] (-) TimerEvent: {}
+[32.192479] (-) TimerEvent: {}
+[32.293158] (-) TimerEvent: {}
+[32.393772] (-) TimerEvent: {}
+[32.494389] (-) TimerEvent: {}
+[32.595071] (-) TimerEvent: {}
+[32.695686] (-) TimerEvent: {}
+[32.796307] (-) TimerEvent: {}
+[32.896852] (-) TimerEvent: {}
+[32.997413] (-) TimerEvent: {}
+[33.097959] (-) TimerEvent: {}
+[33.198499] (-) TimerEvent: {}
+[33.299052] (-) TimerEvent: {}
+[33.399601] (-) TimerEvent: {}
+[33.500163] (-) TimerEvent: {}
+[33.600747] (-) TimerEvent: {}
+[33.701360] (-) TimerEvent: {}
+[33.801927] (-) TimerEvent: {}
+[33.902612] (-) TimerEvent: {}
+[34.003157] (-) TimerEvent: {}
+[34.103746] (-) TimerEvent: {}
+[34.177340] (kinect_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libkinect_ros2_component.so\x1b[0m\n'}
+[34.203949] (-) TimerEvent: {}
+[34.304609] (-) TimerEvent: {}
+[34.405436] (-) TimerEvent: {}
+[34.506168] (-) TimerEvent: {}
+[34.606965] (-) TimerEvent: {}
+[34.707779] (-) TimerEvent: {}
+[34.808423] (-) TimerEvent: {}
+[34.909083] (-) TimerEvent: {}
+[35.009745] (-) TimerEvent: {}
+[35.110557] (-) TimerEvent: {}
+[35.211193] (-) TimerEvent: {}
+[35.311808] (-) TimerEvent: {}
+[35.356907] (kinect_ros2) StdoutLine: {'line': b'[ 50%] Built target kinect_ros2_component\n'}
+[35.386446] (kinect_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target kinect_ros2_node\x1b[0m\n'}
+[35.411993] (-) TimerEvent: {}
+[35.512564] (-) TimerEvent: {}
+[35.584389] (kinect_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/kinect_ros2_node.dir/src/kinect_ros2_node.cpp.o\x1b[0m\n'}
+[35.612963] (-) TimerEvent: {}
+[35.713585] (-) TimerEvent: {}
+[35.814137] (-) TimerEvent: {}
+[35.914705] (-) TimerEvent: {}
+[36.015293] (-) TimerEvent: {}
+[36.115924] (-) TimerEvent: {}
+[36.216567] (-) TimerEvent: {}
+[36.317346] (-) TimerEvent: {}
+[36.417942] (-) TimerEvent: {}
+[36.518544] (-) TimerEvent: {}
+[36.619151] (-) TimerEvent: {}
+[36.719756] (-) TimerEvent: {}
+[36.820365] (-) TimerEvent: {}
+[36.920984] (-) TimerEvent: {}
+[37.021589] (-) TimerEvent: {}
+[37.122192] (-) TimerEvent: {}
+[37.222790] (-) TimerEvent: {}
+[37.323410] (-) TimerEvent: {}
+[37.424017] (-) TimerEvent: {}
+[37.524643] (-) TimerEvent: {}
+[37.625326] (-) TimerEvent: {}
+[37.725985] (-) TimerEvent: {}
+[37.826641] (-) TimerEvent: {}
+[37.927302] (-) TimerEvent: {}
+[38.027949] (-) TimerEvent: {}
+[38.128596] (-) TimerEvent: {}
+[38.229368] (-) TimerEvent: {}
+[38.330003] (-) TimerEvent: {}
+[38.430551] (-) TimerEvent: {}
+[38.531100] (-) TimerEvent: {}
+[38.631675] (-) TimerEvent: {}
+[38.732268] (-) TimerEvent: {}
+[38.832893] (-) TimerEvent: {}
+[38.933507] (-) TimerEvent: {}
+[39.034113] (-) TimerEvent: {}
+[39.134732] (-) TimerEvent: {}
+[39.235356] (-) TimerEvent: {}
+[39.335979] (-) TimerEvent: {}
+[39.436591] (-) TimerEvent: {}
+[39.537254] (-) TimerEvent: {}
+[39.637923] (-) TimerEvent: {}
+[39.738546] (-) TimerEvent: {}
+[39.839203] (-) TimerEvent: {}
+[39.939827] (-) TimerEvent: {}
+[40.040471] (-) TimerEvent: {}
+[40.141148] (-) TimerEvent: {}
+[40.241760] (-) TimerEvent: {}
+[40.342416] (-) TimerEvent: {}
+[40.443021] (-) TimerEvent: {}
+[40.543665] (-) TimerEvent: {}
+[40.644308] (-) TimerEvent: {}
+[40.744917] (-) TimerEvent: {}
+[40.845527] (-) TimerEvent: {}
+[40.946173] (-) TimerEvent: {}
+[41.046813] (-) TimerEvent: {}
+[41.147366] (-) TimerEvent: {}
+[41.247925] (-) TimerEvent: {}
+[41.348532] (-) TimerEvent: {}
+[41.449197] (-) TimerEvent: {}
+[41.549811] (-) TimerEvent: {}
+[41.650420] (-) TimerEvent: {}
+[41.751069] (-) TimerEvent: {}
+[41.851713] (-) TimerEvent: {}
+[41.952361] (-) TimerEvent: {}
+[42.053128] (-) TimerEvent: {}
+[42.153775] (-) TimerEvent: {}
+[42.254430] (-) TimerEvent: {}
+[42.355050] (-) TimerEvent: {}
+[42.455595] (-) TimerEvent: {}
+[42.556205] (-) TimerEvent: {}
+[42.656861] (-) TimerEvent: {}
+[42.757472] (-) TimerEvent: {}
+[42.858074] (-) TimerEvent: {}
+[42.958687] (-) TimerEvent: {}
+[43.059302] (-) TimerEvent: {}
+[43.159968] (-) TimerEvent: {}
+[43.260627] (-) TimerEvent: {}
+[43.361315] (-) TimerEvent: {}
+[43.461918] (-) TimerEvent: {}
+[43.562557] (-) TimerEvent: {}
+[43.663181] (-) TimerEvent: {}
+[43.763730] (-) TimerEvent: {}
+[43.864280] (-) TimerEvent: {}
+[43.964998] (-) TimerEvent: {}
+[44.065600] (-) TimerEvent: {}
+[44.166198] (-) TimerEvent: {}
+[44.266840] (-) TimerEvent: {}
+[44.367463] (-) TimerEvent: {}
+[44.468065] (-) TimerEvent: {}
+[44.568670] (-) TimerEvent: {}
+[44.669320] (-) TimerEvent: {}
+[44.769870] (-) TimerEvent: {}
+[44.870471] (-) TimerEvent: {}
+[44.971075] (-) TimerEvent: {}
+[45.071679] (-) TimerEvent: {}
+[45.172227] (-) TimerEvent: {}
+[45.272840] (-) TimerEvent: {}
+[45.373459] (-) TimerEvent: {}
+[45.456023] (kinect_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable kinect_ros2_node\x1b[0m\n'}
+[45.473667] (-) TimerEvent: {}
+[45.574302] (-) TimerEvent: {}
+[45.674970] (-) TimerEvent: {}
+[45.775614] (-) TimerEvent: {}
+[45.876281] (-) TimerEvent: {}
+[45.976917] (-) TimerEvent: {}
+[46.077535] (-) TimerEvent: {}
+[46.178132] (-) TimerEvent: {}
+[46.278811] (-) TimerEvent: {}
+[46.379473] (-) TimerEvent: {}
+[46.480150] (-) TimerEvent: {}
+[46.580825] (-) TimerEvent: {}
+[46.681430] (-) TimerEvent: {}
+[46.782027] (-) TimerEvent: {}
+[46.882698] (-) TimerEvent: {}
+[46.983376] (-) TimerEvent: {}
+[47.083957] (-) TimerEvent: {}
+[47.184715] (-) TimerEvent: {}
+[47.212344] (kinect_ros2) StdoutLine: {'line': b'[100%] Built target kinect_ros2_node\n'}
+[47.244651] (kinect_ros2) CommandEnded: {'returncode': 0}
+[47.247000] (kinect_ros2) JobProgress: {'identifier': 'kinect_ros2', 'progress': 'install'}
+[47.247750] (kinect_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/kinect_ros2'], 'cwd': '/home/jetson/ros2_ws/build/kinect_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '6750'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros2_ws/install/libfreenect/lib:/home/jetson/ros2_ws/install/kinect_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '6555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '8:35822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/ros2_ws/install/libfreenect/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/6785,unix/nano:/tmp/.ICE-unix/6785'), ('INVOCATION_ID', 'd62ee9243cfe487f96b214f816dfdb2c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bd4c197_a745_473b_a05b_ad004877b3b6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros2_ws/build/kinect_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/libfreenect:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy')]), 'shell': False}
+[47.278239] (kinect_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[47.278917] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/lib/libkinect_ros2_component.so\n'}
+[47.281409] (kinect_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/kinect_ros2/lib/libkinect_ros2_component.so" to ""\n'}
+[47.282022] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/lib/kinect_ros2/kinect_ros2_node\n'}
+[47.283766] (kinect_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros2_ws/install/kinect_ros2/lib/kinect_ros2/kinect_ros2_node" to ""\n'}
+[47.284261] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/cfg\n'}
+[47.284828] (-) TimerEvent: {}
+[47.285501] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/cfg/calibration_depth.yaml\n'}
+[47.286406] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/cfg/calibration_rgb.yaml\n'}
+[47.286987] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/launch\n'}
+[47.287658] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/launch/slam.launch.py\n'}
+[47.291051] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/launch/pointcloud.launch.py\n'}
+[47.291740] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/launch/showimage.launch.py\n'}
+[47.292501] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/launch/kinect_slam.launch.py\n'}
+[47.293391] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/rviz\n'}
+[47.293980] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/rviz/pointcloud.rviz\n'}
+[47.295232] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/ament_index/resource_index/package_run_dependencies/kinect_ros2\n'}
+[47.296090] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/ament_index/resource_index/parent_prefix_path/kinect_ros2\n'}
+[47.296854] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/environment/ament_prefix_path.sh\n'}
+[47.297280] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/environment/ament_prefix_path.dsv\n'}
+[47.297712] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/environment/path.sh\n'}
+[47.298109] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/environment/path.dsv\n'}
+[47.298560] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/local_setup.bash\n'}
+[47.298901] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/local_setup.sh\n'}
+[47.299291] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/local_setup.zsh\n'}
+[47.299674] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/local_setup.dsv\n'}
+[47.300054] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.dsv\n'}
+[47.300575] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/ament_index/resource_index/packages/kinect_ros2\n'}
+[47.301148] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/ament_index/resource_index/rclcpp_components/kinect_ros2\n'}
+[47.301666] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/cmake/kinect_ros2Config.cmake\n'}
+[47.302035] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/cmake/kinect_ros2Config-version.cmake\n'}
+[47.302435] (kinect_ros2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.xml\n'}
+[47.308020] (kinect_ros2) CommandEnded: {'returncode': 0}
+[47.370286] (kinect_ros2) JobEnded: {'identifier': 'kinect_ros2', 'rc': 0}
+[47.373187] (-) EventReactorShutdown: {}

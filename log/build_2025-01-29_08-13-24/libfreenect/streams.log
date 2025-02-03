@@ -1,0 +1,203 @@
+[0.103s] Invoking command in '/home/jetson/ros2_ws/build/libfreenect': /usr/bin/cmake /home/jetson/ros2_ws/src/libfreenect -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/libfreenect
+[0.992s] -- The C compiler identification is GNU 9.4.0
+[1.182s] -- The CXX compiler identification is GNU 9.4.0
+[1.208s] -- Check for working C compiler: /usr/bin/cc
+[1.418s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.423s] -- Detecting C compiler ABI info
+[1.628s] -- Detecting C compiler ABI info - done
+[1.668s] -- Detecting C compile features
+[1.670s] -- Detecting C compile features - done
+[1.681s] -- Check for working CXX compiler: /usr/bin/c++
+[1.919s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.920s] -- Detecting CXX compiler ABI info
+[2.170s] -- Detecting CXX compiler ABI info - done
+[2.211s] -- Detecting CXX compile features
+[2.212s] -- Detecting CXX compile features - done
+[2.215s] -- Operating system is Linux
+[2.215s] -- Got System Processor aarch64
+[2.216s] -- libfreenect will be installed to /home/jetson/ros2_ws/install/libfreenect
+[2.216s] -- Headers will be installed to /home/jetson/ros2_ws/install/libfreenect/include/libfreenect
+[2.216s] -- Libraries will be installed to /home/jetson/ros2_ws/install/libfreenect/lib
+[2.255s] -- Found libusb-1.0:
+[2.255s] --  - Includes: /usr/include/libusb-1.0
+[2.256s] --  - Libraries: /usr/lib/aarch64-linux-gnu/libusb-1.0.so
+[2.260s] -- Check if the system is big endian
+[2.260s] -- Searching 16 bit integer
+[2.261s] -- Looking for sys/types.h
+[2.499s] -- Looking for sys/types.h - found
+[2.500s] -- Looking for stdint.h
+[2.717s] -- Looking for stdint.h - found
+[2.718s] -- Looking for stddef.h
+[2.931s] -- Looking for stddef.h - found
+[2.931s] -- Check size of unsigned short
+[3.162s] -- Check size of unsigned short - done
+[3.162s] -- Using unsigned short
+[3.388s] -- Check if the system is big endian - little endian
+[3.399s] -- Looking for include file pthread.h
+[3.670s] -- Looking for include file pthread.h - found
+[3.671s] -- Looking for pthread_create in pthreads
+[3.871s] -- Looking for pthread_create in pthreads - not found
+[3.879s] -- Looking for pthread_create in pthread
+[4.098s] -- Looking for pthread_create in pthread - found
+[4.102s] -- Found Threads: TRUE  
+[4.121s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[4.136s] -- Found GLUT: /usr/lib/aarch64-linux-gnu/libglut.so  
+[4.175s] -- Configuring done
+[4.286s] -- Generating done
+[4.314s] -- Build files have been written to: /home/jetson/ros2_ws/build/libfreenect
+[4.327s] Invoked command in '/home/jetson/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake /home/jetson/ros2_ws/src/libfreenect -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/libfreenect
+[4.332s] Invoking command in '/home/jetson/ros2_ws/build/libfreenect': /usr/bin/cmake --build /home/jetson/ros2_ws/build/libfreenect -- -j4 -l4
+[4.463s] [35m[1mScanning dependencies of target freenect[0m
+[4.482s] [35m[1mScanning dependencies of target freenectstatic[0m
+[4.497s] [35m[1mScanning dependencies of target fakenect[0m
+[4.529s] [  1%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/core.c.o[0m
+[4.564s] [  3%] [32mBuilding C object src/CMakeFiles/freenect.dir/core.c.o[0m
+[4.574s] [  5%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/fakenect.c.o[0m
+[4.581s] [  7%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/tilt.c.o[0m
+[5.114s] [  9%] [32mBuilding C object src/CMakeFiles/freenect.dir/tilt.c.o[0m
+[5.186s] [ 11%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/cameras.c.o[0m
+[5.227s] [ 13%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/flags.c.o[0m
+[5.329s] [01m[K/home/jetson/ros2_ws/src/libfreenect/src/cameras.c:74:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinvalid_mode[m[K’ defined but not used [[01;35m[K-Wunused-const-variable=[m[K]
+[5.329s]    74 | static const freenect_frame_mode [01;35m[Kinvalid_mode[m[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};
+[5.330s]       |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[5.507s] [ 15%] [32mBuilding C object src/CMakeFiles/freenect.dir/cameras.c.o[0m
+[5.585s] [ 16%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/parson.c.o[0m
+[5.615s] [ 18%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.o[0m
+[5.653s] [01m[K/home/jetson/ros2_ws/src/libfreenect/src/cameras.c:74:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinvalid_mode[m[K’ defined but not used [[01;35m[K-Wunused-const-variable=[m[K]
+[5.653s]    74 | static const freenect_frame_mode [01;35m[Kinvalid_mode[m[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};
+[5.654s]       |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[6.295s] [ 20%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/registration.c.o[0m
+[6.464s] [ 22%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/audio.c.o[0m
+[6.617s] [ 24%] [32mBuilding C object src/CMakeFiles/freenect.dir/flags.c.o[0m
+[6.770s] [ 26%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/loader.c.o[0m
+[6.837s] [ 28%] [32mBuilding C object src/CMakeFiles/freenect.dir/usb_libusb10.c.o[0m
+[6.874s] [01m[K/home/jetson/ros2_ws/src/libfreenect/src/loader.c:82:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcheck_version_string[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[6.874s]    82 | static int [01;35m[Kcheck_version_string[m[K(fnusb_dev* dev) {
+[6.875s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.988s] [ 30%] [32mBuilding C object src/CMakeFiles/freenect.dir/registration.c.o[0m
+[7.237s] [ 32%] [32m[1mLinking C static library ../lib/libfreenect.a[0m
+[7.381s] [ 32%] Built target freenectstatic
+[7.410s] [ 33%] [32mBuilding C object src/CMakeFiles/freenect.dir/audio.c.o[0m
+[7.551s] [ 35%] [32mBuilding C object src/CMakeFiles/freenect.dir/loader.c.o[0m
+[7.659s] [01m[K/home/jetson/ros2_ws/src/libfreenect/src/loader.c:82:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcheck_version_string[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[7.659s]    82 | static int [01;35m[Kcheck_version_string[m[K(fnusb_dev* dev) {
+[7.660s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.700s] [ 37%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/__/src/registration.c.o[0m
+[7.987s] [ 39%] [32m[1mLinking C shared library ../lib/libfreenect.so[0m
+[8.149s] [ 39%] Built target freenect
+[8.180s] [35m[1mScanning dependencies of target freenect-camtest[0m
+[8.181s] [35m[1mScanning dependencies of target freenect-wavrecord[0m
+[8.181s] [35m[1mScanning dependencies of target freenect_sync[0m
+[8.183s] [ 41%] [32m[1mLinking C shared library ../lib/fakenect/libfakenect.so[0m
+[8.225s] [ 43%] [32mBuilding C object examples/CMakeFiles/freenect-camtest.dir/camtest.c.o[0m
+[8.236s] [ 45%] [32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync.dir/libfreenect_sync.c.o[0m
+[8.237s] [ 47%] [32mBuilding C object examples/CMakeFiles/freenect-wavrecord.dir/wavrecord.c.o[0m
+[8.399s] [ 47%] Built target fakenect
+[8.436s] [35m[1mScanning dependencies of target freenect-glview[0m
+[8.462s] [ 49%] [32m[1mLinking C executable ../bin/freenect-wavrecord[0m
+[8.488s] [ 50%] [32m[1mLinking C executable ../bin/freenect-camtest[0m
+[8.492s] [ 52%] [32mBuilding C object examples/CMakeFiles/freenect-glview.dir/glview.c.o[0m
+[8.609s] [ 52%] Built target freenect-wavrecord
+[8.619s] [ 52%] Built target freenect-camtest
+[8.645s] [35m[1mScanning dependencies of target freenect-regview[0m
+[8.652s] [35m[1mScanning dependencies of target freenect-chunkview[0m
+[8.703s] [ 54%] [32mBuilding C object examples/CMakeFiles/freenect-chunkview.dir/chunkview.c.o[0m
+[8.711s] [ 56%] [32mBuilding C object examples/CMakeFiles/freenect-regview.dir/regview.c.o[0m
+[8.774s] [ 58%] [32m[1mLinking C shared library ../../lib/libfreenect_sync.so[0m
+[8.952s] [ 58%] Built target freenect_sync
+[8.992s] [35m[1mScanning dependencies of target freenect-micview[0m
+[9.050s] [ 60%] [32mBuilding C object examples/CMakeFiles/freenect-micview.dir/micview.c.o[0m
+[9.240s] [ 62%] [32m[1mLinking C executable ../bin/freenect-glview[0m
+[9.278s] [ 64%] [32m[1mLinking C executable ../bin/freenect-chunkview[0m
+[9.326s] [ 66%] [32m[1mLinking C executable ../bin/freenect-regview[0m
+[9.444s] [ 66%] Built target freenect-glview
+[9.483s] [ 66%] Built target freenect-chunkview
+[9.485s] [35m[1mScanning dependencies of target freenect-hiview[0m
+[9.524s] [ 67%] [32mBuilding C object examples/CMakeFiles/freenect-hiview.dir/hiview.c.o[0m
+[9.527s] [35m[1mScanning dependencies of target fakenect-record[0m
+[9.531s] [ 67%] Built target freenect-regview
+[9.534s] [ 69%] [32m[1mLinking C executable ../bin/freenect-micview[0m
+[9.565s] [ 71%] [32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/record.c.o[0m
+[9.565s] [35m[1mScanning dependencies of target freenect_sync_static[0m
+[9.609s] [ 73%] [32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o[0m
+[9.719s] [ 73%] Built target freenect-micview
+[9.768s] [ 75%] [32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/parson.c.o[0m
+[10.138s] [ 77%] [32m[1mLinking C static library ../../lib/libfreenect_sync.a[0m
+[10.207s] [ 79%] [32m[1mLinking C executable ../bin/freenect-hiview[0m
+[10.234s] [35m[1mScanning dependencies of target freenect-cpp_pcview[0m
+[10.245s] [ 79%] Built target freenect_sync_static
+[10.289s] [ 81%] [32mBuilding CXX object wrappers/cpp/CMakeFiles/freenect-cpp_pcview.dir/cpp_pc_view.cpp.o[0m
+[10.308s] [35m[1mScanning dependencies of target freenect-cppview[0m
+[10.370s] [ 83%] [32mBuilding CXX object wrappers/cpp/CMakeFiles/freenect-cppview.dir/cppview.cpp.o[0m
+[10.394s] [ 83%] Built target freenect-hiview
+[10.434s] [35m[1mScanning dependencies of target freenect-glpclview[0m
+[10.479s] [ 84%] [32mBuilding C object examples/CMakeFiles/freenect-glpclview.dir/glpclview.c.o[0m
+[10.909s] [ 86%] [32m[1mLinking C executable ../bin/freenect-glpclview[0m
+[11.105s] [ 86%] Built target freenect-glpclview
+[11.139s] [35m[1mScanning dependencies of target freenect-regtest[0m
+[11.200s] [ 88%] [32mBuilding C object examples/CMakeFiles/freenect-regtest.dir/regtest.c.o[0m
+[11.458s] [ 90%] [32m[1mLinking C executable ../bin/freenect-regtest[0m
+[11.592s] [ 90%] Built target freenect-regtest
+[11.626s] [35m[1mScanning dependencies of target freenect-tiltdemo[0m
+[11.687s] [ 92%] [32mBuilding C object examples/CMakeFiles/freenect-tiltdemo.dir/tiltdemo.c.o[0m
+[11.931s] [ 94%] [32m[1mLinking C executable ../bin/freenect-tiltdemo[0m
+[12.060s] [ 94%] Built target freenect-tiltdemo
+[12.226s] [ 96%] [32m[1mLinking C executable ../bin/fakenect-record[0m
+[12.348s] [ 96%] Built target fakenect-record
+[13.389s] [ 98%] [32m[1mLinking CXX executable ../../bin/freenect-cpp_pcview[0m
+[13.586s] [100%] [32m[1mLinking CXX executable ../../bin/freenect-cppview[0m
+[13.663s] [100%] Built target freenect-cpp_pcview
+[13.849s] [100%] Built target freenect-cppview
+[13.883s] Invoked command in '/home/jetson/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --build /home/jetson/ros2_ws/build/libfreenect -- -j4 -l4
+[13.922s] Invoking command in '/home/jetson/ros2_ws/build/libfreenect': /usr/bin/cmake --install /home/jetson/ros2_ws/build/libfreenect
+[13.945s] -- Install configuration: ""
+[13.945s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/share/libfreenect/libfreenectConfig.cmake
+[13.946s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/share/fwfetcher.py
+[13.949s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so.0.7.5
+[13.949s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so.0
+[13.950s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so
+[13.950s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.a
+[13.951s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.h
+[13.951s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_registration.h
+[13.952s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_audio.h
+[13.952s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig/libfreenect.pc
+[13.953s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-camtest
+[13.955s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-camtest" to ""
+[13.955s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-wavrecord
+[13.956s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-wavrecord" to ""
+[13.956s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-glview
+[13.957s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-glview" to ""
+[13.957s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-regview
+[13.958s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-regview" to ""
+[13.959s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-hiview
+[13.960s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-hiview" to ""
+[13.960s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-chunkview
+[13.961s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-chunkview" to ""
+[13.961s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-micview
+[13.962s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-micview" to ""
+[13.962s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-regtest
+[13.964s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-regtest" to ""
+[13.964s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-tiltdemo
+[13.965s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-tiltdemo" to ""
+[13.965s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-glpclview
+[13.966s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-glpclview" to ""
+[13.967s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0.7.5
+[13.967s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0
+[13.968s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so
+[13.968s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/fakenect-record
+[13.969s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/fakenect-record" to ""
+[13.970s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/fakenect
+[13.971s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/share/man/man1/fakenect.1
+[13.972s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/share/man/man1/fakenect-record.1
+[13.974s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5
+[13.974s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0
+[13.975s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5" to ""
+[13.976s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so
+[13.976s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.a
+[13.977s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_sync.h
+[13.977s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.hpp
+[13.977s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-cppview
+[13.979s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-cppview" to ""
+[13.979s] -- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-cpp_pcview
+[13.980s] -- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-cpp_pcview" to ""
+[13.987s] Invoked command in '/home/jetson/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --install /home/jetson/ros2_ws/build/libfreenect

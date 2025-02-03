@@ -1,0 +1,30 @@
+[0.008s] Invoking command in '/home/pericao/ros2_ws/src/kinect_ros2/build/kinect_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pericao/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake /home/pericao/ros2_ws/src/kinect_ros2 -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/src/kinect_ros2/install/kinect_ros2
+[0.024s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.151s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.174s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.362s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.469s] CMake Error at CMakeLists.txt:17 (find_package):
+[0.469s]   By not providing "Findlibfreenect.cmake" in CMAKE_MODULE_PATH this project
+[0.469s]   has asked CMake to find a package configuration file provided by
+[0.469s]   "libfreenect", but CMake did not find one.
+[0.469s] 
+[0.469s]   Could not find a package configuration file provided by "libfreenect" with
+[0.469s]   any of the following names:
+[0.469s] 
+[0.470s]     libfreenectConfig.cmake
+[0.470s]     libfreenect-config.cmake
+[0.470s] 
+[0.470s]   Add the installation prefix of "libfreenect" to CMAKE_PREFIX_PATH or set
+[0.470s]   "libfreenect_DIR" to a directory containing one of the above files.  If
+[0.470s]   "libfreenect" provides a separate development package or SDK, be sure it
+[0.470s]   has been installed.
+[0.470s] 
+[0.470s] 
+[0.470s] -- Configuring incomplete, errors occurred!
+[0.470s] See also "/home/pericao/ros2_ws/src/kinect_ros2/build/kinect_ros2/CMakeFiles/CMakeOutput.log".
+[0.470s] See also "/home/pericao/ros2_ws/src/kinect_ros2/build/kinect_ros2/CMakeFiles/CMakeError.log".
+[0.476s] Invoked command in '/home/pericao/ros2_ws/src/kinect_ros2/build/kinect_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pericao/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake /home/pericao/ros2_ws/src/kinect_ros2 -DCMAKE_INSTALL_PREFIX=/home/pericao/ros2_ws/src/kinect_ros2/install/kinect_ros2

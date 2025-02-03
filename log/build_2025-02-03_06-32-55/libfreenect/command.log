@@ -1,0 +1,4 @@
+Invoking command in '/home/jetson/ros2_ws/build/libfreenect': /usr/bin/cmake --build /home/jetson/ros2_ws/build/libfreenect -- -j4 -l4
+Invoked command in '/home/jetson/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --build /home/jetson/ros2_ws/build/libfreenect -- -j4 -l4
+Invoking command in '/home/jetson/ros2_ws/build/libfreenect': /usr/bin/cmake --install /home/jetson/ros2_ws/build/libfreenect
+Invoked command in '/home/jetson/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --install /home/jetson/ros2_ws/build/libfreenect

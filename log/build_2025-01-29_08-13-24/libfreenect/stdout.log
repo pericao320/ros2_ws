@@ -1,0 +1,185 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Operating system is Linux
+-- Got System Processor aarch64
+-- libfreenect will be installed to /home/jetson/ros2_ws/install/libfreenect
+-- Headers will be installed to /home/jetson/ros2_ws/install/libfreenect/include/libfreenect
+-- Libraries will be installed to /home/jetson/ros2_ws/install/libfreenect/lib
+-- Found libusb-1.0:
+--  - Includes: /usr/include/libusb-1.0
+--  - Libraries: /usr/lib/aarch64-linux-gnu/libusb-1.0.so
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+-- Found GLUT: /usr/lib/aarch64-linux-gnu/libglut.so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/ros2_ws/build/libfreenect
+[35m[1mScanning dependencies of target freenect[0m
+[35m[1mScanning dependencies of target freenectstatic[0m
+[35m[1mScanning dependencies of target fakenect[0m
+[  1%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/core.c.o[0m
+[  3%] [32mBuilding C object src/CMakeFiles/freenect.dir/core.c.o[0m
+[  5%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/fakenect.c.o[0m
+[  7%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/tilt.c.o[0m
+[  9%] [32mBuilding C object src/CMakeFiles/freenect.dir/tilt.c.o[0m
+[ 11%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/cameras.c.o[0m
+[ 13%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/flags.c.o[0m
+[ 15%] [32mBuilding C object src/CMakeFiles/freenect.dir/cameras.c.o[0m
+[ 16%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/parson.c.o[0m
+[ 18%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/usb_libusb10.c.o[0m
+[ 20%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/registration.c.o[0m
+[ 22%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/audio.c.o[0m
+[ 24%] [32mBuilding C object src/CMakeFiles/freenect.dir/flags.c.o[0m
+[ 26%] [32mBuilding C object src/CMakeFiles/freenectstatic.dir/loader.c.o[0m
+[ 28%] [32mBuilding C object src/CMakeFiles/freenect.dir/usb_libusb10.c.o[0m
+[ 30%] [32mBuilding C object src/CMakeFiles/freenect.dir/registration.c.o[0m
+[ 32%] [32m[1mLinking C static library ../lib/libfreenect.a[0m
+[ 32%] Built target freenectstatic
+[ 33%] [32mBuilding C object src/CMakeFiles/freenect.dir/audio.c.o[0m
+[ 35%] [32mBuilding C object src/CMakeFiles/freenect.dir/loader.c.o[0m
+[ 37%] [32mBuilding C object fakenect/CMakeFiles/fakenect.dir/__/src/registration.c.o[0m
+[ 39%] [32m[1mLinking C shared library ../lib/libfreenect.so[0m
+[ 39%] Built target freenect
+[35m[1mScanning dependencies of target freenect-camtest[0m
+[35m[1mScanning dependencies of target freenect-wavrecord[0m
+[35m[1mScanning dependencies of target freenect_sync[0m
+[ 41%] [32m[1mLinking C shared library ../lib/fakenect/libfakenect.so[0m
+[ 43%] [32mBuilding C object examples/CMakeFiles/freenect-camtest.dir/camtest.c.o[0m
+[ 45%] [32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync.dir/libfreenect_sync.c.o[0m
+[ 47%] [32mBuilding C object examples/CMakeFiles/freenect-wavrecord.dir/wavrecord.c.o[0m
+[ 47%] Built target fakenect
+[35m[1mScanning dependencies of target freenect-glview[0m
+[ 49%] [32m[1mLinking C executable ../bin/freenect-wavrecord[0m
+[ 50%] [32m[1mLinking C executable ../bin/freenect-camtest[0m
+[ 52%] [32mBuilding C object examples/CMakeFiles/freenect-glview.dir/glview.c.o[0m
+[ 52%] Built target freenect-wavrecord
+[ 52%] Built target freenect-camtest
+[35m[1mScanning dependencies of target freenect-regview[0m
+[35m[1mScanning dependencies of target freenect-chunkview[0m
+[ 54%] [32mBuilding C object examples/CMakeFiles/freenect-chunkview.dir/chunkview.c.o[0m
+[ 56%] [32mBuilding C object examples/CMakeFiles/freenect-regview.dir/regview.c.o[0m
+[ 58%] [32m[1mLinking C shared library ../../lib/libfreenect_sync.so[0m
+[ 58%] Built target freenect_sync
+[35m[1mScanning dependencies of target freenect-micview[0m
+[ 60%] [32mBuilding C object examples/CMakeFiles/freenect-micview.dir/micview.c.o[0m
+[ 62%] [32m[1mLinking C executable ../bin/freenect-glview[0m
+[ 64%] [32m[1mLinking C executable ../bin/freenect-chunkview[0m
+[ 66%] [32m[1mLinking C executable ../bin/freenect-regview[0m
+[ 66%] Built target freenect-glview
+[ 66%] Built target freenect-chunkview
+[35m[1mScanning dependencies of target freenect-hiview[0m
+[ 67%] [32mBuilding C object examples/CMakeFiles/freenect-hiview.dir/hiview.c.o[0m
+[35m[1mScanning dependencies of target fakenect-record[0m
+[ 67%] Built target freenect-regview
+[ 69%] [32m[1mLinking C executable ../bin/freenect-micview[0m
+[ 71%] [32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/record.c.o[0m
+[35m[1mScanning dependencies of target freenect_sync_static[0m
+[ 73%] [32mBuilding C object wrappers/c_sync/CMakeFiles/freenect_sync_static.dir/libfreenect_sync.c.o[0m
+[ 73%] Built target freenect-micview
+[ 75%] [32mBuilding C object fakenect/CMakeFiles/fakenect-record.dir/parson.c.o[0m
+[ 77%] [32m[1mLinking C static library ../../lib/libfreenect_sync.a[0m
+[ 79%] [32m[1mLinking C executable ../bin/freenect-hiview[0m
+[35m[1mScanning dependencies of target freenect-cpp_pcview[0m
+[ 79%] Built target freenect_sync_static
+[ 81%] [32mBuilding CXX object wrappers/cpp/CMakeFiles/freenect-cpp_pcview.dir/cpp_pc_view.cpp.o[0m
+[35m[1mScanning dependencies of target freenect-cppview[0m
+[ 83%] [32mBuilding CXX object wrappers/cpp/CMakeFiles/freenect-cppview.dir/cppview.cpp.o[0m
+[ 83%] Built target freenect-hiview
+[35m[1mScanning dependencies of target freenect-glpclview[0m
+[ 84%] [32mBuilding C object examples/CMakeFiles/freenect-glpclview.dir/glpclview.c.o[0m
+[ 86%] [32m[1mLinking C executable ../bin/freenect-glpclview[0m
+[ 86%] Built target freenect-glpclview
+[35m[1mScanning dependencies of target freenect-regtest[0m
+[ 88%] [32mBuilding C object examples/CMakeFiles/freenect-regtest.dir/regtest.c.o[0m
+[ 90%] [32m[1mLinking C executable ../bin/freenect-regtest[0m
+[ 90%] Built target freenect-regtest
+[35m[1mScanning dependencies of target freenect-tiltdemo[0m
+[ 92%] [32mBuilding C object examples/CMakeFiles/freenect-tiltdemo.dir/tiltdemo.c.o[0m
+[ 94%] [32m[1mLinking C executable ../bin/freenect-tiltdemo[0m
+[ 94%] Built target freenect-tiltdemo
+[ 96%] [32m[1mLinking C executable ../bin/fakenect-record[0m
+[ 96%] Built target fakenect-record
+[ 98%] [32m[1mLinking CXX executable ../../bin/freenect-cpp_pcview[0m
+[100%] [32m[1mLinking CXX executable ../../bin/freenect-cppview[0m
+[100%] Built target freenect-cpp_pcview
+[100%] Built target freenect-cppview
+-- Install configuration: ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/share/libfreenect/libfreenectConfig.cmake
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/share/fwfetcher.py
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so.0.7.5
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so.0
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.a
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.h
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_registration.h
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_audio.h
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig/libfreenect.pc
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-camtest
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-camtest" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-wavrecord
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-wavrecord" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-glview
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-glview" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-regview
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-regview" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-hiview
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-hiview" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-chunkview
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-chunkview" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-micview
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-micview" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-regtest
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-regtest" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-tiltdemo
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-tiltdemo" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-glpclview
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-glpclview" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0.7.5
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/fakenect-record
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/fakenect-record" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/fakenect
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/share/man/man1/fakenect.1
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/share/man/man1/fakenect-record.1
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.a
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_sync.h
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.hpp
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-cppview
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-cppview" to ""
+-- Installing: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-cpp_pcview
+-- Set runtime path of "/home/jetson/ros2_ws/install/libfreenect/bin/freenect-cpp_pcview" to ""

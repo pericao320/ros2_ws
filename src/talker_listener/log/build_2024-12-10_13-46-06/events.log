@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (talker_listener) JobQueued: {'identifier': 'talker_listener', 'dependencies': OrderedDict()}
+[0.000550] (talker_listener) JobStarted: {'identifier': 'talker_listener'}
+[0.096920] (-) TimerEvent: {}
+[0.197710] (-) TimerEvent: {}
+[0.303892] (-) TimerEvent: {}
+[0.404709] (-) TimerEvent: {}
+[0.505335] (-) TimerEvent: {}
+[0.605957] (-) TimerEvent: {}
+[0.706515] (-) TimerEvent: {}
+[0.807134] (-) TimerEvent: {}
+[0.907813] (-) TimerEvent: {}
+[1.008411] (-) TimerEvent: {}
+[1.108977] (-) TimerEvent: {}
+[1.209616] (-) TimerEvent: {}
+[1.310270] (-) TimerEvent: {}
+[1.410884] (-) TimerEvent: {}
+[1.511589] (-) TimerEvent: {}
+[1.612418] (-) TimerEvent: {}
+[1.713102] (-) TimerEvent: {}
+[1.813742] (-) TimerEvent: {}
+[1.914373] (-) TimerEvent: {}
+[2.015098] (-) TimerEvent: {}
+[2.115703] (-) TimerEvent: {}
+[2.216315] (-) TimerEvent: {}
+[2.317483] (-) TimerEvent: {}
+[2.418043] (-) TimerEvent: {}
+[2.518702] (-) TimerEvent: {}
+[2.619323] (-) TimerEvent: {}
+[2.719967] (-) TimerEvent: {}
+[2.820727] (-) TimerEvent: {}
+[2.921542] (-) TimerEvent: {}
+[3.022110] (-) TimerEvent: {}
+[3.122845] (-) TimerEvent: {}
+[3.223462] (-) TimerEvent: {}
+[3.324174] (-) TimerEvent: {}
+[3.424786] (-) TimerEvent: {}
+[3.525652] (-) TimerEvent: {}
+[3.610034] (talker_listener) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/talker_listener', 'build', '--build-base', '/home/jetson/ros2_ws/src/talker_listener/build/talker_listener/build', 'install', '--record', '/home/jetson/ros2_ws/src/talker_listener/build/talker_listener/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ros2_ws/src/talker_listener', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'LC_TIME': 'nl_NL.UTF-8', 'SSH_AGENT_PID': '7358', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '32.6.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Nano 2GB Developer Kit', 'LC_MONETARY': 'nl_NL.UTF-8', 'MANAGERPID': '7158', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '29233', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (2 GB ram)', 'JETSON_SERIAL_NUMBER': '1424120060011', 'JOURNAL_STREAM': '8:37710', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Batuu', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/cuda/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/7394,unix/nano:/tmp/.ICE-unix/7394', 'INVOCATION_ID': 'f0c0910e219444e4b39abc63f4bb9cc3', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:ea681fd9-cd15-4fa3-a177-76af5d485921', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/ros2_ws/src/talker_listener/build/talker_listener', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/src/talker_listener/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '4.6', 'JETSON_P_NUMBER': 'p3448-0003'}, 'shell': False}
+[3.627269] (-) TimerEvent: {}
+[3.730490] (-) TimerEvent: {}
+[3.831106] (-) TimerEvent: {}
+[3.931702] (-) TimerEvent: {}
+[4.032371] (-) TimerEvent: {}
+[4.133020] (-) TimerEvent: {}
+[4.233679] (-) TimerEvent: {}
+[4.334294] (-) TimerEvent: {}
+[4.434853] (-) TimerEvent: {}
+[4.535498] (-) TimerEvent: {}
+[4.636185] (-) TimerEvent: {}
+[4.736885] (-) TimerEvent: {}
+[4.837565] (-) TimerEvent: {}
+[4.938231] (-) TimerEvent: {}
+[4.958138] (talker_listener) StdoutLine: {'line': b'running egg_info\n'}
+[4.960544] (talker_listener) StdoutLine: {'line': b'creating build/talker_listener/talker_listener.egg-info\n'}
+[4.961642] (talker_listener) StdoutLine: {'line': b'writing build/talker_listener/talker_listener.egg-info/PKG-INFO\n'}
+[4.962455] (talker_listener) StdoutLine: {'line': b'writing dependency_links to build/talker_listener/talker_listener.egg-info/dependency_links.txt\n'}
+[4.963125] (talker_listener) StdoutLine: {'line': b'writing entry points to build/talker_listener/talker_listener.egg-info/entry_points.txt\n'}
+[4.963655] (talker_listener) StdoutLine: {'line': b'writing requirements to build/talker_listener/talker_listener.egg-info/requires.txt\n'}
+[4.964173] (talker_listener) StdoutLine: {'line': b'writing top-level names to build/talker_listener/talker_listener.egg-info/top_level.txt\n'}
+[4.975992] (talker_listener) StdoutLine: {'line': b"writing manifest file 'build/talker_listener/talker_listener.egg-info/SOURCES.txt'\n"}
+[4.984353] (talker_listener) StdoutLine: {'line': b"reading manifest file 'build/talker_listener/talker_listener.egg-info/SOURCES.txt'\n"}
+[4.987665] (talker_listener) StdoutLine: {'line': b"writing manifest file 'build/talker_listener/talker_listener.egg-info/SOURCES.txt'\n"}
+[4.989329] (talker_listener) StdoutLine: {'line': b'running build\n'}
+[4.990621] (talker_listener) StdoutLine: {'line': b'running build_py\n'}
+[4.991144] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/src/talker_listener/build/talker_listener/build\n'}
+[4.991659] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/src/talker_listener/build/talker_listener/build/lib\n'}
+[4.992289] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/src/talker_listener/build/talker_listener/build/lib/talker_listener\n'}
+[4.992772] (talker_listener) StdoutLine: {'line': b'copying talker_listener/__init__.py -> /home/jetson/ros2_ws/src/talker_listener/build/talker_listener/build/lib/talker_listener\n'}
+[4.993270] (talker_listener) StdoutLine: {'line': b'running install\n'}
+[4.993951] (talker_listener) StdoutLine: {'line': b'running install_lib\n'}
+[4.998033] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/python3.8/site-packages/talker_listener\n'}
+[4.998709] (talker_listener) StdoutLine: {'line': b'copying /home/jetson/ros2_ws/src/talker_listener/build/talker_listener/build/lib/talker_listener/__init__.py -> /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/python3.8/site-packages/talker_listener\n'}
+[5.000521] (talker_listener) StdoutLine: {'line': b'byte-compiling /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/python3.8/site-packages/talker_listener/__init__.py to __init__.cpython-38.pyc\n'}
+[5.001289] (talker_listener) StdoutLine: {'line': b'running install_data\n'}
+[5.002020] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/ament_index\n'}
+[5.002590] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/ament_index/resource_index\n'}
+[5.003142] (talker_listener) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/ament_index/resource_index/packages\n'}
+[5.003534] (talker_listener) StdoutLine: {'line': b'copying resource/talker_listener -> /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/ament_index/resource_index/packages\n'}
+[5.004084] (talker_listener) StdoutLine: {'line': b'copying package.xml -> /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/share/talker_listener\n'}
+[5.004494] (talker_listener) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.010288] (talker_listener) StdoutLine: {'line': b'Copying build/talker_listener/talker_listener.egg-info to /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/python3.8/site-packages/talker_listener-0.0.0-py3.8.egg-info\n'}
+[5.014377] (talker_listener) StdoutLine: {'line': b'running install_scripts\n'}
+[5.038391] (-) TimerEvent: {}
+[5.091204] (talker_listener) StdoutLine: {'line': b'Installing listener script to /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/talker_listener\n'}
+[5.092130] (talker_listener) StdoutLine: {'line': b'Installing talker script to /home/jetson/ros2_ws/src/talker_listener/install/talker_listener/lib/talker_listener\n'}
+[5.092971] (talker_listener) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/src/talker_listener/build/talker_listener/install.log'\n"}
+[5.138636] (-) TimerEvent: {}
+[5.191864] (talker_listener) CommandEnded: {'returncode': 0}
+[5.239632] (-) TimerEvent: {}
+[5.262065] (talker_listener) JobEnded: {'identifier': 'talker_listener', 'rc': 0}
+[5.264567] (-) EventReactorShutdown: {}

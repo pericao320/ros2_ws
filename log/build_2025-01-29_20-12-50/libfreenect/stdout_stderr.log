@@ -1,0 +1,54 @@
+[ 16%] Built target freenectstatic
+[ 24%] Built target fakenect
+[ 41%] Built target freenect
+[ 45%] Built target freenect-glview
+[ 49%] Built target freenect_sync
+[ 52%] Built target freenect-wavrecord
+[ 56%] Built target freenect-camtest
+[ 60%] Built target freenect-regview
+[ 64%] Built target freenect-chunkview
+[ 67%] Built target freenect-micview
+[ 71%] Built target freenect-hiview
+[ 75%] Built target freenect_sync_static
+[ 81%] Built target fakenect-record
+[ 84%] Built target freenect-cppview
+[ 88%] Built target freenect-cpp_pcview
+[ 92%] Built target freenect-glpclview
+[ 96%] Built target freenect-regtest
+[100%] Built target freenect-tiltdemo
+-- Install configuration: ""
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/share/libfreenect/libfreenectConfig.cmake
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/share/fwfetcher.py
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so.0.7.5
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so.0
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.a
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.h
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_registration.h
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_audio.h
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig/libfreenect.pc
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-camtest
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-wavrecord
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-glview
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-regview
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-hiview
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-chunkview
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-micview
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-regtest
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-tiltdemo
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-glpclview
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0.7.5
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/fakenect-record
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/fakenect
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/share/man/man1/fakenect.1
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/share/man/man1/fakenect-record.1
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.a
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_sync.h
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.hpp
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-cppview
+-- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-cpp_pcview

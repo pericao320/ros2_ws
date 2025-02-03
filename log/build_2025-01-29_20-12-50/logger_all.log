@@ -1,0 +1,313 @@
+[0.627s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.627s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa85653d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa85653d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa85658b0>)
+[1.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.166s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ros2_ws'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extensions ['ignore', 'ignore_ament_install']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extension 'ignore'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extension 'ignore_ament_install'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extensions ['colcon_pkg']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extension 'colcon_pkg'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extensions ['colcon_meta']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extension 'colcon_meta'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extensions ['ros']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_depth) by extension 'ros'
+[1.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kinect_depth' with type 'ros.ament_python' and name 'kinect_depth'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'ignore'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'ignore_ament_install'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['colcon_pkg']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'colcon_pkg'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['colcon_meta']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'colcon_meta'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['ros']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'ros'
+[1.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kinect_ros2' with type 'ros.ament_cmake' and name 'kinect_ros2'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extensions ['ignore', 'ignore_ament_install']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'ignore'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'ignore_ament_install'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extensions ['colcon_pkg']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'colcon_pkg'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extensions ['colcon_meta']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'colcon_meta'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extensions ['ros']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'ros'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extensions ['cmake', 'python']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'cmake'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/libfreenect) by extension 'python'
+[1.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libfreenect' with type 'cmake' and name 'libfreenect'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['ignore', 'ignore_ament_install']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ignore'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ignore_ament_install'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['colcon_pkg']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'colcon_pkg'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['colcon_meta']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'colcon_meta'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['ros']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ros'
+[1.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/talker_listener' with type 'ros.ament_python' and name 'talker_listener'
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.312s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/jetson/ros2_ws/install
+[1.319s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/foxy
+[1.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_args' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_target' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_clean_cache' from command line to 'False'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_clean_first' from command line to 'False'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'cmake_force_configure' from command line to 'False'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'ament_cmake_args' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'catkin_cmake_args' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'kinect_depth' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.632s] DEBUG:colcon.colcon_core.verb:Building package 'kinect_depth' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/kinect_depth', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/kinect_depth', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/kinect_depth', 'symlink_install': False, 'test_result_base': None}
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_args' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_target' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_clean_cache' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_clean_first' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'cmake_force_configure' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'ament_cmake_args' from command line to 'None'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'catkin_cmake_args' from command line to 'None'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'libfreenect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.634s] DEBUG:colcon.colcon_core.verb:Building package 'libfreenect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/libfreenect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/libfreenect', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/libfreenect', 'symlink_install': False, 'test_result_base': None}
+[1.635s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_args' from command line to 'None'
+[1.635s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target' from command line to 'None'
+[1.635s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.636s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[1.636s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_first' from command line to 'False'
+[1.636s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_force_configure' from command line to 'False'
+[1.636s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'ament_cmake_args' from command line to 'None'
+[1.636s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[1.636s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.636s] DEBUG:colcon.colcon_core.verb:Building package 'talker_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/talker_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/talker_listener', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/talker_listener', 'symlink_install': False, 'test_result_base': None}
+[1.637s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_args' from command line to 'None'
+[1.638s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_target' from command line to 'None'
+[1.638s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.638s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.638s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.638s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.638s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.638s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.638s] Level 5:colcon.colcon_core.verb:set package 'kinect_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.638s] DEBUG:colcon.colcon_core.verb:Building package 'kinect_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/kinect_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/kinect_ros2', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/kinect_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.639s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.643s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_ws/src/libfreenect'
+[1.659s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.680s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/kinect_depth' with build type 'ament_python'
+[1.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_depth', 'ament_prefix_path')
+[1.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/hook/ament_prefix_path.ps1'
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/hook/ament_prefix_path.dsv'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/hook/ament_prefix_path.sh'
+[1.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.700s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.719s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/talker_listener' with build type 'ament_python'
+[1.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'ament_prefix_path')
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/hook/ament_prefix_path.ps1'
+[1.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/hook/ament_prefix_path.dsv'
+[1.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/hook/ament_prefix_path.sh'
+[1.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/libfreenect': /usr/bin/cmake --build /home/jetson/ros2_ws/build/libfreenect -- -j4 -l4
+[2.760s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/kinect_depth'
+[2.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.761s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --build /home/jetson/ros2_ws/build/libfreenect -- -j4 -l4
+[2.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/libfreenect': /usr/bin/cmake --install /home/jetson/ros2_ws/build/libfreenect
+[3.598s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/talker_listener'
+[3.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libfreenect)
+[3.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --install /home/jetson/ros2_ws/build/libfreenect
+[3.662s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/libfreenect' for CMake module files
+[3.664s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/libfreenect' for CMake config files
+[3.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfreenect', 'cmake_prefix_path')
+[3.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/cmake_prefix_path.ps1'
+[3.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/cmake_prefix_path.dsv'
+[3.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/cmake_prefix_path.sh'
+[3.672s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/libfreenect/lib'
+[3.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfreenect', 'ld_library_path_lib')
+[3.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/ld_library_path_lib.ps1'
+[3.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/ld_library_path_lib.dsv'
+[3.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/ld_library_path_lib.sh'
+[3.678s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/libfreenect/bin'
+[3.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfreenect', 'path')
+[3.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/path.ps1'
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/path.dsv'
+[3.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/path.sh'
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig/libfreenect.pc'
+[3.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfreenect', 'pkg_config')
+[3.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/pkg_config.ps1'
+[3.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/pkg_config.dsv'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/pkg_config.sh'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/libfreenect/lib/python3.8/site-packages'
+[3.691s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/libfreenect/bin'
+[3.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('libfreenect', 'pythonscriptspath')
+[3.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/pythonscriptspath.ps1'
+[3.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/pythonscriptspath.dsv'
+[3.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/hook/pythonscriptspath.sh'
+[3.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/package.ps1'
+[3.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/package.dsv'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/package.sh'
+[3.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/package.bash'
+[3.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/libfreenect/share/libfreenect/package.zsh'
+[3.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/libfreenect/share/colcon-core/packages/libfreenect)
+[3.774s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_ws/src/kinect_ros2' with build type 'ament_cmake'
+[3.775s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_ws/src/kinect_ros2'
+[3.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.776s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/kinect_ros2': CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/libfreenect:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/libfreenect/lib:/home/jetson/ros2_ws/install/kinect_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/jetson/ros2_ws/build/kinect_ros2 -- -j4 -l4
+[4.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/kinect_ros2' returned '0': CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/libfreenect:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/libfreenect/lib:/home/jetson/ros2_ws/install/kinect_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/jetson/ros2_ws/build/kinect_ros2 -- -j4 -l4
+[4.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/kinect_ros2': CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/libfreenect:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/libfreenect/lib:/home/jetson/ros2_ws/install/kinect_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/jetson/ros2_ws/build/kinect_ros2
+[4.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinect_ros2)
+[4.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/kinect_ros2' returned '0': CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/libfreenect:/home/jetson/ros2_ws/install/kinect_ros2:/home/jetson/ros2_ws/install/talker_listener:/home/jetson/ros2_ws/install/kinect_depth:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/libfreenect/lib:/home/jetson/ros2_ws/install/kinect_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/jetson/ros2_ws/build/kinect_ros2
+[4.450s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2' for CMake module files
+[4.453s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2' for CMake config files
+[4.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_ros2', 'cmake_prefix_path')
+[4.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.ps1'
+[4.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.dsv'
+[4.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.sh'
+[4.462s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2/lib'
+[4.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_ros2', 'ld_library_path_lib')
+[4.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.ps1'
+[4.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.dsv'
+[4.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.sh'
+[4.467s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2/bin'
+[4.467s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2/lib/pkgconfig/kinect_ros2.pc'
+[4.468s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2/lib/python3.8/site-packages'
+[4.469s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2/bin'
+[4.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.ps1'
+[4.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.dsv'
+[4.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.sh'
+[4.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.bash'
+[4.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.zsh'
+[4.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/kinect_ros2/share/colcon-core/packages/kinect_ros2)
+[4.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinect_ros2)
+[4.480s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2' for CMake module files
+[4.482s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2' for CMake config files
+[4.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_ros2', 'cmake_prefix_path')
+[4.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.ps1'
+[4.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.dsv'
+[4.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/cmake_prefix_path.sh'
+[4.490s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2/lib'
+[4.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_ros2', 'ld_library_path_lib')
+[4.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.ps1'
+[4.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.dsv'
+[4.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/hook/ld_library_path_lib.sh'
+[4.496s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2/bin'
+[4.496s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2/lib/pkgconfig/kinect_ros2.pc'
+[4.496s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2/lib/python3.8/site-packages'
+[4.497s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_ros2/bin'
+[4.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.ps1'
+[4.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.dsv'
+[4.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.sh'
+[4.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.bash'
+[4.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_ros2/share/kinect_ros2/package.zsh'
+[4.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/kinect_ros2/share/colcon-core/packages/kinect_ros2)
+[5.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/src/kinect_depth': PYTHONPATH=/home/jetson/ros2_ws/build/kinect_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinect_depth build --build-base /home/jetson/ros2_ws/build/kinect_depth/build install --record /home/jetson/ros2_ws/build/kinect_depth/install.log --single-version-externally-managed install_data
+[5.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/src/talker_listener': PYTHONPATH=/home/jetson/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/jetson/ros2_ws/build/talker_listener/build install --record /home/jetson/ros2_ws/build/talker_listener/install.log --single-version-externally-managed install_data
+[6.605s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_depth' for CMake module files
+[6.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/src/kinect_depth' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/kinect_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinect_depth build --build-base /home/jetson/ros2_ws/build/kinect_depth/build install --record /home/jetson/ros2_ws/build/kinect_depth/install.log --single-version-externally-managed install_data
+[6.608s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_depth' for CMake config files
+[6.610s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_depth/lib'
+[6.610s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_depth/bin'
+[6.610s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_depth/lib/pkgconfig/kinect_depth.pc'
+[6.611s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages'
+[6.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinect_depth', 'pythonpath')
+[6.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/hook/pythonpath.ps1'
+[6.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/hook/pythonpath.dsv'
+[6.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/hook/pythonpath.sh'
+[6.616s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/kinect_depth/bin'
+[6.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinect_depth)
+[6.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/package.ps1'
+[6.619s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/package.dsv'
+[6.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/package.sh'
+[6.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/package.bash'
+[6.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/kinect_depth/share/kinect_depth/package.zsh'
+[6.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/kinect_depth/share/colcon-core/packages/kinect_depth)
+[6.627s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/talker_listener' for CMake module files
+[6.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/src/talker_listener' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/jetson/ros2_ws/build/talker_listener/build install --record /home/jetson/ros2_ws/build/talker_listener/install.log --single-version-externally-managed install_data
+[6.630s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/talker_listener' for CMake config files
+[6.632s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/talker_listener/lib'
+[6.632s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/talker_listener/bin'
+[6.633s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/talker_listener/lib/pkgconfig/talker_listener.pc'
+[6.633s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/talker_listener/lib/python3.8/site-packages'
+[6.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'pythonpath')
+[6.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/hook/pythonpath.ps1'
+[6.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/hook/pythonpath.dsv'
+[6.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/hook/pythonpath.sh'
+[6.638s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/talker_listener/bin'
+[6.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talker_listener)
+[6.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/package.ps1'
+[6.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/package.dsv'
+[6.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/package.sh'
+[6.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/package.bash'
+[6.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/talker_listener/share/talker_listener/package.zsh'
+[6.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/talker_listener/share/colcon-core/packages/talker_listener)
+[6.647s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.648s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.648s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.648s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.677s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.678s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.678s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.704s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.ps1'
+[6.709s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/install/_local_setup_util_ps1.py'
+[6.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.ps1'
+[6.727s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.sh'
+[6.743s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/install/_local_setup_util_sh.py'
+[6.745s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.sh'
+[6.753s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.bash'
+[6.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.bash'
+[6.766s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.zsh'
+[6.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.zsh'

@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -O2    CMakeFiles/freenect-regtest.dir/regtest.c.o  -o ../bin/freenect-regtest  -Wl,-rpath,/home/jetson/ros2_ws/build/libfreenect/lib: ../lib/libfreenect_sync.so.0.7.5 -lm ../lib/libfreenect.so.0.7.5 /usr/lib/aarch64-linux-gnu/libusb-1.0.so -lpthread 

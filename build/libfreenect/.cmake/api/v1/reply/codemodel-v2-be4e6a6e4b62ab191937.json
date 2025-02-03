@@ -1,0 +1,305 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						2,
+						17
+					]
+				},
+				{
+					"build" : "examples",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "fakenect",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fakenect",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "wrappers/c_sync",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "wrappers/c_sync",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "wrappers/cpp",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "wrappers/cpp",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "libfreenect",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "fakenect::@ad960db0dfc9b36e43c7",
+					"jsonFile" : "target-fakenect-7f5fea6180d926c6c5a5.json",
+					"name" : "fakenect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fakenect-record::@ad960db0dfc9b36e43c7",
+					"jsonFile" : "target-fakenect-record-c9cc36a9a9770dc070ef.json",
+					"name" : "fakenect-record",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freenect::@145eef247bfb46b6828c",
+					"jsonFile" : "target-freenect-33a6aeb69e05e184d32a.json",
+					"name" : "freenect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freenect-camtest::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freenect-camtest-4eebcf23d39738d41d92.json",
+					"name" : "freenect-camtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freenect-chunkview::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freenect-chunkview-0cbf9df7ec2edf9563ca.json",
+					"name" : "freenect-chunkview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "freenect-cpp_pcview::@d31abc51cff5e40229fe",
+					"jsonFile" : "target-freenect-cpp_pcview-2f28118d0690c6fe3b0c.json",
+					"name" : "freenect-cpp_pcview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "freenect-cppview::@d31abc51cff5e40229fe",
+					"jsonFile" : "target-freenect-cppview-bf785ff38570ff130d7b.json",
+					"name" : "freenect-cppview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freenect-glpclview::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freenect-glpclview-dfcafee2e89867d590f2.json",
+					"name" : "freenect-glpclview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freenect-glview::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freenect-glview-c53ca9a2c35d2b525e92.json",
+					"name" : "freenect-glview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freenect-hiview::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freenect-hiview-2fe65be48d677da067ad.json",
+					"name" : "freenect-hiview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freenect-micview::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freenect-micview-dfb158f9d9bd1d774868.json",
+					"name" : "freenect-micview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freenect-regtest::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freenect-regtest-a51690eaecc19a64156d.json",
+					"name" : "freenect-regtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freenect-regview::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freenect-regview-7a438ed1fe545700bed4.json",
+					"name" : "freenect-regview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freenect-tiltdemo::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freenect-tiltdemo-97be3e785d025df6a8a1.json",
+					"name" : "freenect-tiltdemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freenect-wavrecord::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freenect-wavrecord-4880488fab01fd8dea84.json",
+					"name" : "freenect-wavrecord",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "freenect_sync::@576f7b6d96029cc094a2",
+					"jsonFile" : "target-freenect_sync-c60c3248fab309417dec.json",
+					"name" : "freenect_sync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "freenect_sync_static::@576f7b6d96029cc094a2",
+					"jsonFile" : "target-freenect_sync_static-efa8594fabdf13f86731.json",
+					"name" : "freenect_sync_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freenectstatic::@145eef247bfb46b6828c",
+					"jsonFile" : "target-freenectstatic-4d35d3ca29f3ed53f938.json",
+					"name" : "freenectstatic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e7516749d2ced88a4c9a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jetson/ros2_ws/build/libfreenect",
+		"source" : "/home/jetson/ros2_ws/src/libfreenect"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

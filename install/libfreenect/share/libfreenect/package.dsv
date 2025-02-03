@@ -1,0 +1,15 @@
+source;share/libfreenect/hook/cmake_prefix_path.ps1
+source;share/libfreenect/hook/cmake_prefix_path.dsv
+source;share/libfreenect/hook/cmake_prefix_path.sh
+source;share/libfreenect/hook/ld_library_path_lib.ps1
+source;share/libfreenect/hook/ld_library_path_lib.dsv
+source;share/libfreenect/hook/ld_library_path_lib.sh
+source;share/libfreenect/hook/path.ps1
+source;share/libfreenect/hook/path.dsv
+source;share/libfreenect/hook/path.sh
+source;share/libfreenect/hook/pkg_config.ps1
+source;share/libfreenect/hook/pkg_config.dsv
+source;share/libfreenect/hook/pkg_config.sh
+source;share/libfreenect/hook/pythonscriptspath.ps1
+source;share/libfreenect/hook/pythonscriptspath.dsv
+source;share/libfreenect/hook/pythonscriptspath.sh

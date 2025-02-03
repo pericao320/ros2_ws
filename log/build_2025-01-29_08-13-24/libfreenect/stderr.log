@@ -1,0 +1,12 @@
+[01m[K/home/jetson/ros2_ws/src/libfreenect/src/cameras.c:74:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinvalid_mode[m[K’ defined but not used [[01;35m[K-Wunused-const-variable=[m[K]
+   74 | static const freenect_frame_mode [01;35m[Kinvalid_mode[m[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};
+      |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/libfreenect/src/cameras.c:74:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinvalid_mode[m[K’ defined but not used [[01;35m[K-Wunused-const-variable=[m[K]
+   74 | static const freenect_frame_mode [01;35m[Kinvalid_mode[m[K = {0, (freenect_resolution)0, {(freenect_video_format)0}, 0, 0, 0, 0, 0, 0, 0};
+      |                                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/libfreenect/src/loader.c:82:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcheck_version_string[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   82 | static int [01;35m[Kcheck_version_string[m[K(fnusb_dev* dev) {
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/libfreenect/src/loader.c:82:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcheck_version_string[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   82 | static int [01;35m[Kcheck_version_string[m[K(fnusb_dev* dev) {
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K

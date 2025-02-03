@@ -1,0 +1,58 @@
+[0.182s] Invoking command in '/home/jetson/ros2_ws/build/libfreenect': /usr/bin/cmake --build /home/jetson/ros2_ws/build/libfreenect -- -j4 -l4
+[2.235s] [ 16%] Built target freenectstatic
+[2.237s] [ 33%] Built target freenect
+[2.241s] [ 41%] Built target fakenect
+[2.242s] [ 45%] Built target freenect-wavrecord
+[2.243s] [ 49%] Built target freenect-camtest
+[2.243s] [ 52%] Built target freenect_sync
+[2.243s] [ 56%] Built target freenect-glview
+[2.244s] [ 60%] Built target freenect-chunkview
+[2.244s] [ 64%] Built target freenect-regview
+[2.245s] [ 67%] Built target freenect-micview
+[2.245s] [ 71%] Built target freenect-hiview
+[2.246s] [ 77%] Built target fakenect-record
+[2.246s] [ 81%] Built target freenect_sync_static
+[2.246s] [ 84%] Built target freenect-cpp_pcview
+[2.247s] [ 88%] Built target freenect-cppview
+[2.247s] [ 92%] Built target freenect-glpclview
+[2.248s] [ 96%] Built target freenect-tiltdemo
+[2.248s] [100%] Built target freenect-regtest
+[3.356s] Invoked command in '/home/jetson/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --build /home/jetson/ros2_ws/build/libfreenect -- -j4 -l4
+[3.438s] Invoking command in '/home/jetson/ros2_ws/build/libfreenect': /usr/bin/cmake --install /home/jetson/ros2_ws/build/libfreenect
+[3.478s] -- Install configuration: ""
+[3.480s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/share/libfreenect/libfreenectConfig.cmake
+[3.480s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/share/fwfetcher.py
+[3.493s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so.0.7.5
+[3.494s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so.0
+[3.494s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.so
+[3.495s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect.a
+[3.495s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.h
+[3.495s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_registration.h
+[3.496s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_audio.h
+[3.496s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/pkgconfig/libfreenect.pc
+[3.498s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-camtest
+[3.508s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-wavrecord
+[3.509s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-glview
+[3.510s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-regview
+[3.511s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-hiview
+[3.515s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-chunkview
+[3.516s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-micview
+[3.517s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-regtest
+[3.524s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-tiltdemo
+[3.529s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-glpclview
+[3.536s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0.7.5
+[3.537s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so.0
+[3.544s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/fakenect/libfakenect.so
+[3.544s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/fakenect-record
+[3.545s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/fakenect
+[3.549s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/share/man/man1/fakenect.1
+[3.555s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/share/man/man1/fakenect-record.1
+[3.556s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0.7.5
+[3.556s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so.0
+[3.557s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.so
+[3.557s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/lib/libfreenect_sync.a
+[3.558s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect_sync.h
+[3.558s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/include/libfreenect/libfreenect.hpp
+[3.570s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-cppview
+[3.576s] -- Up-to-date: /home/jetson/ros2_ws/install/libfreenect/bin/freenect-cpp_pcview
+[3.579s] Invoked command in '/home/jetson/ros2_ws/build/libfreenect' returned '0': /usr/bin/cmake --install /home/jetson/ros2_ws/build/libfreenect

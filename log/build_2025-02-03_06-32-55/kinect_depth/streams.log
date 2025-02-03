@@ -1,0 +1,21 @@
+[5.459s] Invoking command in '/home/jetson/ros2_ws/src/kinect_depth': PYTHONPATH=/home/jetson/ros2_ws/build/kinect_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinect_depth build --build-base /home/jetson/ros2_ws/build/kinect_depth/build install --record /home/jetson/ros2_ws/build/kinect_depth/install.log --single-version-externally-managed install_data
+[6.218s] running egg_info
+[6.220s] writing ../../build/kinect_depth/kinect_depth.egg-info/PKG-INFO
+[6.223s] writing dependency_links to ../../build/kinect_depth/kinect_depth.egg-info/dependency_links.txt
+[6.224s] writing entry points to ../../build/kinect_depth/kinect_depth.egg-info/entry_points.txt
+[6.224s] writing requirements to ../../build/kinect_depth/kinect_depth.egg-info/requires.txt
+[6.224s] writing top-level names to ../../build/kinect_depth/kinect_depth.egg-info/top_level.txt
+[6.367s] reading manifest file '../../build/kinect_depth/kinect_depth.egg-info/SOURCES.txt'
+[6.371s] writing manifest file '../../build/kinect_depth/kinect_depth.egg-info/SOURCES.txt'
+[6.371s] running build
+[6.371s] running build_py
+[6.375s] running install
+[6.378s] running install_lib
+[6.386s] running install_data
+[6.386s] running install_egg_info
+[6.392s] removing '/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth-0.0.0-py3.8.egg-info' (and everything under it)
+[6.395s] Copying ../../build/kinect_depth/kinect_depth.egg-info to /home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages/kinect_depth-0.0.0-py3.8.egg-info
+[6.398s] running install_scripts
+[6.458s] Installing depth_publisher script to /home/jetson/ros2_ws/install/kinect_depth/lib/kinect_depth
+[6.461s] writing list of installed files to '/home/jetson/ros2_ws/build/kinect_depth/install.log'
+[6.564s] Invoked command in '/home/jetson/ros2_ws/src/kinect_depth' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/kinect_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ros2_ws/install/kinect_depth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinect_depth build --build-base /home/jetson/ros2_ws/build/kinect_depth/build install --record /home/jetson/ros2_ws/build/kinect_depth/install.log --single-version-externally-managed install_data

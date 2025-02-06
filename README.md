@@ -130,6 +130,6 @@ Este proyecto fue desarrollado como parte de la tesis titulada **"Robot móvil d
 
 ##
 ## Anexos
-<img src="https://imgur.com/RHlBvtq.jpg" alt="RvizImage" width="500"/>
-<img src="https://imgur.com/WknejJU.jpg" alt="RvizImage" width="500"/>
-<img src="https://imgur.com/zKV8Miz.jpg" alt="nodesImage" width="500"/>
+<img src="https://imgur.com/RHlBvtq.jpg" title="Nube de puntos del entorno generada con la información de profundidad" alt="RvizImage" width="500"/>
+<img src="https://imgur.com/WknejJU.jpg" title="Prueba slam_toolbox a partir de datos de nube de puntos" alt="RvizImage" width="500"/>
+<img src="https://imgur.com/uF0aJV2.jpg" title="Diagrama de flujo de tópicos y nodos extraídos del sistema" alt="nodesImage" width="500"/>

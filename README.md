@@ -7,7 +7,7 @@ Este proyecto implementa un sistema de visión artificial utilizando ROS, una c�
 - **Captura de datos**: Utiliza la cámara Kinect para capturar puntos y vectores del entorno.
 - **Procesamiento**: Procesa los datos capturados mediante nodos desarrollados en ROS.
 - **Visualización en 3D**: Representación de los datos procesados en RViz para una visualización clara y detallada del entorno.
-- **Integración con SLAM**: Diseñado para complementar a posteriori sistemas de navegación autónoma mediante mapeo simultáneo y localización.
+- Diseñado para complementar a posteriori sistemas de navegación autónoma mediante mapeo simultáneo y localización.
 
 ## Requisitos
 - **Hardware**:

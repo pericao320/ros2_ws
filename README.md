@@ -14,6 +14,7 @@ Este proyecto implementa un sistema de visión artificial utilizando ROS, una c�
   - Jetson Nano (2GB o superior)
   - Cámara Kinect
   - Robot móvil de alto torque (opcional, para integración completa)
+  - Jetson Nano password: jetson
 - **Software**:
   - Ubuntu 20.04
   - ROS (Robot Operating System)

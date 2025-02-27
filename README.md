@@ -135,5 +135,5 @@ Este proyecto fue desarrollado como parte de la tesis titulada **"Robot móvil d
 <img src="https://i.imgur.com/IAHdM28.png" title="Imagen de ejemplo (Simula una capturada por el sensor Kinect)" alt="RvizImage" height="250"/><img src="https://i.imgur.com/dI1jHVn.jpeg" title="Nube de puntos del entorno generada a partir del algoritmo" alt="RvizImage" height="250"/>
  
 ### Vistas del entorno dentro de ROS 2 (Imágenes capturadas dentro de la tarjeta electronica) 
-<img src="https://imgur.com/RHlBvtq.jpg" title="Nube de puntos del entorno generada con la información de profundidad" alt="RvizImage" height="400"/><img src="https://imgur.com/WknejJU.jpg" title="Prueba slam_toolbox a partir de datos de nube de puntos" alt="RvizImage" height="400"/>
+<img src="https://imgur.com/RHlBvtq.jpg" title="Nube de puntos del entorno generada con la información de profundidad" alt="RvizImage" height="250"/>  <img src="https://imgur.com/WknejJU.jpg" title="Prueba slam_toolbox a partir de datos de nube de puntos" alt="RvizImage" height="250"/>
 <img src="https://imgur.com/uF0aJV2.jpg" title="Diagrama de flujo de tópicos y nodos extraídos del sistema" alt="nodesImage" width="500"/>

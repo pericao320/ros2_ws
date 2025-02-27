@@ -1,3 +1,5 @@
+# by pericao320
+
 import numpy as np
 import cv2
 import open3d as o3d
@@ -5,7 +7,7 @@ import open3d as o3d
 # 1. Cargar imagen de profundidad (en milímetros o metros, dependiendo de la cámara)
 depth_image = cv2.imread("depth_image.png", cv2.IMREAD_UNCHANGED)
 if depth_image is None:
-    raise ValueError("No se pudo cargar la imagen de profundidad. Verifica la ruta del archivo.")
+    raise ValueError("No se pudo cargar la imagen de profundidad. Verificar la ruta del archivo.")
 
 # Verificar si la imagen tiene más de un canal y convertirla a escala de grises si es necesario
 if len(depth_image.shape) > 2:
